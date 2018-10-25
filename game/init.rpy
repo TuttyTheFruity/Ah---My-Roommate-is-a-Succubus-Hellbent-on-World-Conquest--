@@ -23,6 +23,17 @@ define pg1 = Character('Partygoer 1', color="#FFFFFF", voice_tag="pg1")
 define pg2 = Character('Partygoer 2', color="#FFFFFF", voice_tag="pg2")
 
 ######################
+# Flags              #
+######################
+
+$ minion = False
+$ sawstacey = False
+$ helpkamika = False
+$ kamika_points = 0
+$ stacey_points = 0
+$ lucca_points = 0
+
+######################
 # Sprite Declaration #
 ######################
 

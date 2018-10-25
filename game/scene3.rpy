@@ -254,13 +254,18 @@ voice "c-3-59.mp3" #Kamika (Ariane Marchese)
 kam "So what do you say? Won't you join me, and embrace your calling by my side~?"
 
 #CHOICE: IMPLEMENT LATER
-#>>Deny her offer
-#>>Begrudgingly accept her offer
+menu:
+    "Deny her offer":
+        jump s3deny
+    "Begrudgingly accept her offer":
+        $ kamika_points += 1
+        jump s3accept
 
 #BRANCH: dialogue path from ">>Deny her offer"
 
 #show kam annoyed
 
+label s3deny:
 "I grabbed Kamika's hand and removed it from my chin."
 
 voice "c-3-60.mp3" #Yumi (Kathy Pfautsch)
@@ -287,6 +292,9 @@ kam "So I'll be the bigger person and let it slide... just this once."
 
 "Is she seriously trying to make {i}me{/i} out to be the problem child?! I can feel my blood rising almost immediately after she said that...!"
 
+jump s3merge
+
+label s3accept:
 #BRANCH: dialogue path from ">>Begrudgingly accept her offer"
 
 "I cautiously remove Kamika's hand from my chin and let out a sigh."
@@ -320,7 +328,9 @@ kam "Humph! Killjoy."
 
 "Even when I try to get on her good side, she's not satisfied unless it's exactly how {i}she{/i} wants it!"
 "How in the world did I end up with the most annoying and demanding demon the underworld has ever produced?!"
+jump s3merge
 
+label s3merge:
 #MERGE: dialogue paths converge here
 
 "...I cast a glance at my watch. Oh God, I'm gonna be running late for my next class!"

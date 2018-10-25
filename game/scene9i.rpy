@@ -148,9 +148,17 @@ luc "Anyway, if you're concerned, maybe w-we should team up? A-and figure out a 
 voice "c-9i-33.mp3" #Yumi (Kathy Pfautsch)
 yum "Hmm'"
 
+menu:
+    "Agree to collaborate":
+        $ lucca_points += 1
+        jump s9ilucca
+    "I can handle it on my own":
+        jump s9iedgelord
 #CHOICE:
 #>>Agree to collaborate
 #>>I can handle it on my own
+
+label s9ilucca:
 
 #BRANCH: dialogue path from ">>Agree to collaborate"
 
@@ -165,6 +173,9 @@ yum "I'd really appreciate your input, since you've probably known her a lot lon
 voice "c-9i-36.mp3" #Lucca (Victoria Wong)
 luc "Well, longer doesn't always mean b-better, heh. But I'll absolutely help however I can!"
 
+jump s9imerge
+
+label s9iedgelord:
 #BRANCH: dialogue path from ">>I can handle it on my own"
 
 
@@ -180,10 +191,14 @@ yum "If all that this whole thing boils down to is having a stinky, self-importa
 voice "c-9i-39.mp3" #Lucca (Victoria Wong)
 luc "That's... true, I suppose."
 
+jump s9imerge
+
 #MERGE:
 
+label s9imerge:
+
 voice "c-9i-40.mp3" #Lucca (Victoria Wong)
-luc "Oh'! Look'"
+luc "Oh! Look!"
 
 "In the distance, I can definitely see the crowd becoming denser around the plaza. Something's seriously going on."
 
@@ -201,7 +216,7 @@ yum "Well, you're both demons, right? How would {i}you{/i} try to take over the 
 "The look she gives in response is one of the utmost horror. It's as though I just told her there was an entire frog in her smoothie."
 
 voice "c-9i-44.mp3" #Lucca (Victoria Wong)
-luc "I'I would n-never even dream'!"
+luc "I... I would n-never even dream'!"
 
 voice "c-9i-45.mp3" #Yumi (Kathy Pfautsch)
 yum "I know. But you have to know certain tricks of the trade, right?"

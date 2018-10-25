@@ -401,6 +401,14 @@ sta "You going back upstairs?"
 
 "Actually...."
 
+menu:
+    "Check on Kamika":
+        $ kamika_points += 1
+        jump s6kamika
+    "Hang with Stacey":
+        $ stacey_points += 1
+        $ sawstacey = True
+        jump scene7ii
 #CHOICE
 
 #>"I'd better go back and keep an eye on Kamika."
@@ -409,6 +417,7 @@ sta "You going back upstairs?"
 
 #BRANCH: dialogue path from "I'd better go back and keep an eye on Kamika."
 
+label s6kamika:
 "I can't let {i}her{/i} of all people know I have a demon in my room. She'd never hear let me hear the end of it!"
 "Come on, Yumi, come up with a good excuse..."
 
@@ -449,7 +458,3 @@ yum "...I should go."
 "I make my way back the way I came..."
 
 jump scene7i
-
-#BRANCH: dialogue path from "I should stay out of the dorms for a while and cool off."
-
-jump scene7ii

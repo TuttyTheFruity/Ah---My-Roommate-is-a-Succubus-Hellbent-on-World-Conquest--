@@ -338,6 +338,14 @@ kam "Do we have a deal or not?"
 #>>Oh Hell no.
 #>>Okay, let's make a pact
 
+menu:
+    "Oh Hell no.":
+        jump s5deny
+    "Okay, let's make a pact.":
+        $ minion = True
+        jump s5accept
+
+label s5deny:
 #BRANCH: dialogue path from ">>Oh hell no."
 
 "...You know what, I have better things to do than worry over every little thing this bitch does."
@@ -395,6 +403,7 @@ kam "Fine! Go on your 'walk!' See if I care! I never needed your help anyway!"
 
 jump scene6
 
+label s5accept:
 #BRANCH: dialogue path from ">>Okay, let's make a pact"
 
 "...If she's serious about all this, then the world is in more danger than I thought."

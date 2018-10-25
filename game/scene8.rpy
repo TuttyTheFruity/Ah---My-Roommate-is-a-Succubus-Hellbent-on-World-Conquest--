@@ -45,7 +45,12 @@ voice "c-8-7.mp3" #Kamika (Ariane Marchese)
 kam "It will be the end of what you once knew... and the beginning of my beautiful utopia~"
 
 #BRANCH: dialogue path based on not helping Kamika
+if helpkamika = True:
+    jump s8minion
+else:
+    jump s8free
 
+label s8free:
 voice "c-8-8.mp3" #Kamika (Ariane Marchese)
 kam "And not even {i}you{/i}, dear Yumi, will be able to stop it~"
 
@@ -66,9 +71,11 @@ kam "You'll come to realize what a fool you've been, so you'll come crawling to 
 
 voice "c-8-14.mp3" #Kamika (Ariane Marchese)
 kam "So don't you worry your pretty little head... I'll give you what you crave in due time~"
+jump s8merge
 
 #BRANCH: dialogue path based on helping Kamika
 
+label s8minion:
 voice "c-8-15.mp3" #Kamika (Ariane Marchese)
 kam "But you wanted this to happen anyway, didn't you dear Yumi~?"
 
@@ -89,9 +96,11 @@ kam "I'll give you attention and love, {i}every night{/i}, just between the two 
 
 voice "c-8-21.mp3" #Kamika (Ariane Marchese)
 kam "Once we've accomplished our goals, I'll make you the happiest woman on the planet~"
+jump s8merge
 
 #MERGE: dialogue paths converge here
 
+label s8merge:
 "What is she even saying? Do I {i}want{/i} to find out? Is it better to ignore her?"
 "Every part of my brain is rife with indecision... but against my better judgement, my eyes slowly open anyways."
 "And what I find..."
@@ -149,10 +158,15 @@ yum "Oh god {i}dammit!{/i} I'm gonna be late!"
 
 "I spring out of bed in a rush, trying as hard as I can to get ready for the day. Kamika simply observes me."
 
+if helpkamika = True:
+    jump s8minion2
+else:
+    jump s8free2
 #BRANCH: dialogue path based on not helping Kamika
 
 #show kam confident, eyes closed
 
+label s8free2:
 voice "c-8-30.mp3" #Kamika (Ariane Marchese)
 kam "Alright, well while you attend to your {i}human{/i} obligations, {i}I'm{/i} going to go put things in motion!"
 
@@ -175,9 +189,11 @@ yum "Wait!"
 "As much as I hate to admit it, I don't have a lot of choice right now... I'll have to deal with her later in the day."
 "For now, I get dressed and make haste towards my morning classes..."
 
-jump scene9ii
+jump scene9i
 
 #BRANCH: dialogue path based on helping Kamika
+
+label s8minion2:
 
 #show kam demanding
 

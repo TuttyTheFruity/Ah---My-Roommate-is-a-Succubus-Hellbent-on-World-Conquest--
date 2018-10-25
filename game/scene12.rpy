@@ -176,6 +176,7 @@ yum "Just do it where I don't have to look at you..."
 "Lowering my eyes back to the canvas, I get started on a fresh slate. For what it's worth, I wasn't very far in my first draft, so starting over doesn't set me too far back."
 
 "I get some different angles of the fruit at least, but overall they were still fairly similar. I didn't want to burn midnight oil on this project, so my sketchy lines are increasingly slapdash and messy."
+
 voice "c-12-49.mp3" #Kamika (Ariane Marchese)
 kam "You know, Yumi, it bugs me... why sketch out a bowl of fruit?"
 

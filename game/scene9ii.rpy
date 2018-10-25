@@ -318,12 +318,19 @@ kam "Go on, Yumi~ Tell her the depths of your devotion to me~!"
 "Or... Lucca might have more information on Kamika. She might know some things I don't. It sounds like they've known each other longer."
 "Shit. Who do I side with? Will Lucca believe me?"
 
+menu:
+    "Stand down":
+        $ lucca_points += 1
+        jump luccasurrender
+    "Stand up for Kamika":
+        jump resist1
 #CHOICE:
 #>>Stand down
 #>>Stand up for Kamika
 
 #dialogue path from ">>Stand down"
 
+label luccasurrender:
 "I wrestle my way out of Kamika's grasp and head over to Lucca's side."
 
 voice "c-9ii-76.mp3" #Kamika (Ariane Marchese)
@@ -354,9 +361,11 @@ yum "Kamika, {i}wait-!{/i}"
 
 voice "c-9ii-84.mp3" #Kamika (Ariane Marchese)
 kam "Don't even {i}think{/i} of talking to me. I have nothing to say to a filthy traitor like {i}you.{/i}"
+jump s9iimerge
 
 #BRANCH: dialogue path from ">>Stand up for Kamika"
 
+label resist1:
 "Gotta stick with the plan. I'll tell Lucca later. She'll understand, right?"
 
 voice "c-9ii-85.mp3" #Yumi (Kathy Pfautsch)
@@ -409,8 +418,15 @@ luc "Don't listen to her, Yumi! Get away, b-before it's too late!"
 #>>Stand down
 #>>Refuse to back down
 
+menu:
+    "Stand down":
+        $ lucca_points += 1
+        jump luccasurrender
+    "Refuse to back down":
+        jump resist2
 #BRANCH: dialogue path from ">>Refuse to back down"
 
+label resist2:
 "I can feel Kamika getting more and more possessive of me with each second."
 "I should be disgusted... but if anything, it's showing how much she relies on me. And I have to keep up the facade as much as possible."
 
@@ -444,10 +460,18 @@ kam "Go on, Yumi, tell her! Tell her we don't need people like {i}her{/i} in our
 voice "c-9ii-108.mp3" #Kamika (Ariane Marchese)
 kam "Stand up and defend me, Yumi! Prove your loyalty to me once and for all~!"
 
+menu:
+    "Stand down":
+        $ lucca_points += 1
+        jump luccasurrender
+    "Prove your loyalty":
+        $ kamika_points += 1
+        jump resist3
 #CHOICE
 #>>Stand down
 #>>Prove your loyalty
 
+label resist3:
 #BRANCH: dialogue path from ">>Prove your loyalty"
 
 voice "c-9ii-109.mp3" #Yumi (Kathy Pfautsch)
@@ -551,6 +575,7 @@ yum "Alright, I got it..."
 
 #MERGE: all dialogue paths converge here
 
+label s9iimerge:
 "And with that, Kamika storms off'"
 
 jump scene10

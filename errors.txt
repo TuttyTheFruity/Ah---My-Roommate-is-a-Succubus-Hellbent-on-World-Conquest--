@@ -2,9 +2,29 @@
 errors listed below, and try again.
 
 
-The label start is defined twice, at
-  File "game/init.rpy", line 48 and
-  File "game/script.rpy", line 11.
+File "game/scene3.rpy", line 261: expected statement.
+    kamika_points += 1
+                  ^
+
+File "game/scene9i.rpy", line 153: expected statement.
+    lucca_points += 1
+                 ^
+
+File "game/scene9ii.rpy", line 323: expected statement.
+    lucca_points += 1
+                 ^
+
+File "game/scene9ii.rpy", line 423: expected statement.
+    lucca_points += 1
+                 ^
+
+File "game/scene9ii.rpy", line 465: expected statement.
+    lucca_points += 1
+                 ^
+
+File "game/scene9ii.rpy", line 468: expected statement.
+    kamika_points += 1
+                  ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Tue Oct 23 23:57:29 2018
+Thu Oct 25 03:46:02 2018
