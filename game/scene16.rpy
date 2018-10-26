@@ -60,8 +60,8 @@ sta "Yeah, I have homework and shit to do anyways."
 if route = "kamika":
     jump scene17i
 
-if route = "lucca":
+elif route = "lucca":
     jump scene17ii
 
-if route = "stacey":
+elif route = "stacey":
     jump scene17iii

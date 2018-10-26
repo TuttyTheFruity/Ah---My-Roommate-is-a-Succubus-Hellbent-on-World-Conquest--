@@ -1,7 +1,7 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While parsing E:\Ah!! My Roommate is a Succubus Hellbent on World Conquest!!/game/scene14ii.rpy.
-UnicodeDecodeError: 'utf8' codec can't decode byte 0x94 in position 271: invalid start byte
+While parsing E:\Ah!! My Roommate is a Succubus Hellbent on World Conquest!!/game/scene7iii.rpy.
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x92 in position 13179: invalid start byte
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -21,9 +21,9 @@ Full traceback:
   File "E:\renpy-6.99.12.4-sdk\renpy\parser.py", line 214, in list_logical_lines
     data = f.read().decode("utf-8")
   File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/encodings/utf_8.py", line 16, in decode
-UnicodeDecodeError: 'utf8' codec can't decode byte 0x94 in position 271: invalid start byte
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x92 in position 13179: invalid start byte
 
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
  
-Wed Oct 24 23:30:13 2018
+Thu Oct 25 21:54:17 2018

@@ -11,40 +11,41 @@ scene rooftopnight
 "But in the end, we managed to prevent her from going too far..."
 
 if route = "stacey":
-    jump staceyend
+    jump staceyend1
 elif route = "lucca":
-    jump luccaend
+    jump luccaend1
 elif route = "kamika":
-    jump kamikaend
+    jump kamikaend1
 #dialogue path if on Stacey route
 
-label staceyend:
+label staceyend1:
 "I think it was all because Stacey knew how to help me keep my head cool."
 "She's an... eccentric girl, to put it bluntly. Sometimes I'm not even sure if she's all there or not."
 "Yet when she {i}does{/i} say something, it feels more insightful than I give her credit for."
 "She has a good head for writing as well; so long as she keeps that up, I'm sure she has a bright future ahead of her."
 "...I could do without her being so familiar with demons, but, oh well. Beggars can't be choosers."
-jump s18merge
+jump s18merge1
 
 #dialogue path if on Lucca route
 
-label luccaend:
+label luccaend1:
 "I couldn't have done it without Lucca's help."
 "She's timid, sure, and a bit of a crybaby, but there's a fire and a passion underneath that I've never seen before."
 "She'll never hesitate to stand up for someone she's close to, either. She's a kind soul... for a demon, anyway."
 "I've got no idea how far she'll go with her graffiti art... heck, I don't even know if she'll keep it up."
 "But she's more serious about it than I can even imagine, so... I think she'll be fine."
-jump s18merge
+jump s18merge1
 
 #dialogue path if on Kamika route
 
-label kamikaend:
+label kamikaend1:
 "Then we had that fight, me and her, and... I managed to learn more about her right then and there than I ever did before."
 "But it doesn't feel right to me. Why would she even go to all that trouble in the first place?"
 "It can't just be out of simple envy, could it? These demons base all of their friggin' identities around their assigned sin, so it's the most probable answer to me."
 "But when I think back to how hard she went off... I get the feeling the root of the problem goes deeper than that."
 "...Oh well, it's not like she'd ever tell me anyways. I doubt she'll even stick around my room after today."
 
+label s18merge1:
 voice "c-18-1.mp3" #Kamika (Ariane Marchese)
 kam "...Hey, Yumi?"
 
@@ -96,6 +97,156 @@ kam "It's not right to put friends through that, but I was so convinced everyone
 
 voice "c-18-13.mp3" #Yumi (Kathy Pfautsch)
 yum "..."
+
+if route = "stacey":
+    jump staceyend2
+elif route = "lucca":
+    jump luccaend2
+elif route = "kamika":
+    jump kamikaend2
+
+label staceyend2:
+voice "c-18-a.mp3" #Yumi (Kathy Pfautsch)
+yum "You know, Stacey actually told me something interesting earlier."
+
+voice "c-18-b.mp3" #Yumi (Kathy Pfautsch)
+yum "She told me she wanted your autograph."
+
+voice "c-18-c.mp3" #Kamika (Ariane Marchese)
+kam "Did she...?"
+
+voice "c-18-d.mp3" #Yumi (Kathy Pfautsch)
+yum "Yeah. She's been collecting a lot of Sinful Stars merchandise."
+
+voice "c-18-e.mp3" #Yumi (Kathy Pfautsch)
+yum "Which... I don't even {i}know{/i} how she manages that. It can't be easy to get all that stuff and keep it on-hand."
+
+voice "c-18-f.mp3" #Kamika (Ariane Marchese)
+kam "Yeah... demon merchandise like that usually doesn't leave the underworld. She must have gotten help from someone..."
+
+voice "c-18-g.mp3" #Yumi (Kathy Pfautsch)
+yum "Someone like Moe, probably?"
+
+voice "c-18-h.mp3" #Kamika (Ariane Marchese)
+kam "Oh, {i}duh{/i}, yeah. Forgot about that. He's like a ghost."
+
+voice "c-18-i.mp3" #Kamika (Ariane Marchese)
+kam "...But, why me specifically? I'm not with the Sinful Stars anymore. I can't even get a shirt if I wanted to."
+
+voice "c-18-j.mp3" #Kamika (Ariane Marchese)
+kam "Getting my autograph now would just be a waste..."
+
+voice "c-18-k.mp3" #Yumi (Kathy Pfautsch)
+yum "She still considers you part of the group, if that means anything."
+
+voice "c-18-l.mp3" #Kamika (Ariane Marchese)
+kam "I guess..."
+
+voice "c-18-m.mp3" #Yumi (Kathy Pfautsch)
+yum "I know Stacey doesn't look like the kind of person to care about much, but believe me, she puts more thought into things than even I give her credit for."
+
+voice "c-18-n.mp3" #Yumi (Kathy Pfautsch)
+yum "She goes through life at her own pace, but she silently cheers people on in the background. I think there's something really admirable about that."
+
+voice "c-18-o.mp3" #Yumi (Kathy Pfautsch)
+yum "And she wanted you to know that you had at least one fan rooting for you."
+
+voice "c-18-p.mp3" #Kamika (Ariane Marchese)
+kam "Huh? She really meant that...?"
+
+voice "c-18-q.mp3" #Yumi (Kathy Pfautsch)
+yum "Dude, she is as straightforward as they come. She wouldn't have said that if she didn't mean it."
+
+voice "c-18-r.mp3" #Kamika (Ariane Marchese)
+kam "..."
+
+voice "c-18-s.mp3" #Kamika (Ariane Marchese)
+kam "...Well, how can I possibly say no to something like that?"
+
+voice "c-18-t.mp3" #Kamika (Ariane Marchese)
+kam "I'll have to see if I can call in a favor... Where does she want it signed?"
+
+voice "c-18-u.mp3" #Yumi (Kathy Pfautsch)
+yum "On the, uh... On the chest, if you don't mind."
+
+voice "c-18-v.mp3" #Kamika (Ariane Marchese)
+kam "I can do that. I'll give her the best signature I can, so that I'll always be touching her heart."
+
+voice "c-18-w.mp3" #Kamika (Ariane Marchese)
+kam "Maybe even a little closer...~"
+
+voice "c-18-x.mp3" #Yumi (Kathy Pfautsch)
+yum "Don't push it."
+
+voice "c-18-y.mp3" #Kamika (Ariane Marchese)
+kam "Hah... okay."
+
+"Hoo boy. She's still got a long way to go..."
+
+jump s18merge2
+
+label luccaend2:
+voice "c-18-z.mp3" #Yumi (Kathy Pfautsch)
+yum "You know that Lucca didn't want any of this to happen, right?"
+
+voice "c-18-aa.mp3" #Yumi (Kathy Pfautsch)
+yum "All she wants is a family she can rely on; she can't stand the thought of being abandoned by, well, anyone."
+
+voice "c-18-ab.mp3" #Yumi (Kathy Pfautsch)
+yum "She probably would never admit it, but... I think she worries about you, Kamika."
+
+voice "c-18-ac.mp3" #Kamika (Ariane Marchese)
+kam "She does...?"
+
+voice "c-18-ad.mp3" #Yumi (Kathy Pfautsch)
+yum "I mean, she definitely has at least a {i}little{/i} beef with you, but that might be because she wants better out of you."
+
+voice "c-18-ae.mp3" #Kamika (Ariane Marchese)
+kam "Easy for her to say... I can barely even do that for myself, let alone for other people."
+
+voice "c-18-af.mp3" #Yumi (Kathy Pfautsch)
+yum "Well... lemme show you something."
+
+"I point out over campus to a building with a splotch of color on it. That style of drawing... I know for sure it came from Lucca."
+
+
+voice "c-18-ag.mp3" #Yumi (Kathy Pfautsch)
+yum "You see that graffiti over on the Fine Arts building?"
+
+voice "c-18-ah.mp3" #Kamika (Ariane Marchese)
+kam "Yeah? What about it?"
+
+voice "c-18-ai.mp3" #Yumi (Kathy Pfautsch)
+yum "That's Lucca's art. She makes those as often as she can, knowing that one day, they'll just fade away without anyone ever noticing."
+
+voice "c-18-aj.mp3" #Yumi (Kathy Pfautsch)
+yum "But she keeps on making them, because it's something that she {i}loves{/i} doing. There's not a day that goes by where she {i}isn't{/i} passionate about that."
+
+voice "c-18-ak.mp3" #Yumi (Kathy Pfautsch)
+yum "And she's able to do all of this because she has the others. The Sinful Stars, I mean."
+
+voice "c-18-al.mp3" #Yumi (Kathy Pfautsch)
+yum "Everyone there means so much to her... and I think you leaving that family the way you did was really crushing for her."
+
+voice "c-18-am.mp3" #Kamika (Ariane Marchese)
+kam "...So, isn't it too late to make things up already...?"
+
+voice "c-18-an.mp3" #Yumi (Kathy Pfautsch)
+yum "Only if you let yourself believe that. I think Lucca would appreciate it if you at least talked things out with her."
+
+voice "c-18-ao.mp3" #Kamika (Ariane Marchese)
+kam "...You're right. I don't think I ever meant to hurt anyone, least of all Lucca."
+
+voice "c-18-ap.mp3" #Kamika (Ariane Marchese)
+kam "I've talked things over with most of the others, but... I'll see what I can do for her."
+
+"She's at least willing to go through with patching things up, that much is certain. I just hope things are allowed to heal once they do make up..."
+
+jump s18merge2
+
+
+
+label kamikaend2:
 
 voice "c-18-14.mp3" #Yumi (Kathy Pfautsch)
 yum "...What {i}was{/i} that stuff you were talking about earlier, anyway?"
@@ -384,6 +535,9 @@ kam "You're too good to me, Yumi... Thank you."
 "But maybe this is what she really needs; a positive approach to putting herself out there, one that will give her a lot more personal satisfaction."
 "It'd certainly be a lot better than her crazy plans for world domination, at the very least..."
 
+
+label s18merge2:
+
 voice "c-18-99.mp3" #Yumi (Kathy Pfautsch)
 yum "Oh, yeah, there was one other thing I was wanting to mention..."
 
@@ -417,6 +571,33 @@ kam "I'll allow it."
 
 voice "c-18-108.mp3" #Yumi (Kathy Pfautsch)
 yum "You'll 'allow it?' You sound like you're still wanting to take charge."
+
+voice "c-18-aq.mp3" #Kamika (Ariane Marchese)
+kam "I won't be satisfied unless I'm on top, you know."
+
+voice "c-18-ar.mp3" #Yumi (Kathy Pfautsch)
+yum "Heh... good point."
+
+if route = "kamika":
+    jump bitchend
+else:
+    jump notbitchend
+#dialogue path if on Stacey or Lucca route
+
+label notbitchend:
+"We both just hung out on the roof in silence for the rest of the night, watching the stars lazily pass us by..."
+
+jump credits
+
+#dialogue path if on Kamika route
+
+label bitchend:
+    
+voice "c-18-as.mp3" #Kamika (Ariane Marchese)
+kam "Ah, besides..."
+
+voice "c-18-109.mp3" #Kamika (Ariane Marchese)
+kam "This time it's different! I'm going to take charge of my own destiny from here on out!"
 
 voice "c-18-109.mp3" #Kamika (Ariane Marchese)
 kam "W-well, this time it's different! I'm going to take charge of my own destiny from here on out!"

@@ -387,4 +387,113 @@ moe "Keep me posted on Kamika, alright? She's too stupid to be dangerous, but we
 voice "c-11-119.mp3" #Yumi (Kathy Pfautsch)
 yum "You got it, Moe."
 
+#scene dormhallway
+
+"Stacey and I left Moe's room not long after that."
+"Finally, it feels as though things are getting somewhere... but I can't let down my guard yet."
+"Kamika might try something incredibly stupid, and I need to be prepared for anything."
+
+voice "c-11-120.mp3" #Stacey (Ashe Thurman)
+sta "By the way, you think you could get me an autographed shirt from Kamika?"
+
+voice "c-11-121.mp3" #Yumi (Kathy Pfautsch)
+yum "Wh- Stacey!"
+
+voice "c-11-122.mp3" #Stacey (Ashe Thurman)
+sta "What? She's still a Sinful Star. I've been collecting all sorts of memorabilia from them, you know."
+
+voice "c-11-123.mp3" #Stacey (Ashe Thurman)
+sta "I know Kamika is like, super evil and everything, but getting an autograph from her would basically be the coolest."
+
+voice "c-11-124.mp3" #Yumi (Kathy Pfautsch)
+yum "Why not just get an autograph from Moe? He's {i}way{/i} less evil!"
+
+voice "c-11-125.mp3" #Stacey (Ashe Thurman)
+sta "He doesn't even do anything. All he does is stand around and look pretty. Or look at porn."
+
+voice "c-11-126.mp3" #Yumi (Kathy Pfautsch)
+yum "Oh..."
+
+voice "c-11-127.mp3" #Stacey (Ashe Thurman)
+sta "Sometimes he does stand-up. He should really stick to his day job."
+
+voice "c-11-128.mp3" #Stacey (Ashe Thurman)
+sta "Besides, his shirt size doesn't fit me anyway. And Kamika's size happens to be a perfect fit on me."
+
+voice "c-11-129.mp3" #Stacey (Ashe Thurman)
+sta "Soooo, how about it?"
+
+menu:
+    "Agree to get her an autograph":
+        $ stacey_points += 1
+        jump autograph
+    "Advise her against it":
+        jump noautograph
+#choice
+#>>Agree to get her an autograph
+#>>Advise her against it
+
+#dialogue path from ">>Agree to get her an autograph"
+
+label autograph:
+"...You know what, why not. It's a harmless enough request."
+
+voice "c-11-130.mp3" #Yumi (Kathy Pfautsch)
+yum "I'll, uh, let her know you're a big fan and that she'd like an autograph."
+
+voice "c-11-132.mp3" #Stacey (Ashe Thurman)
+sta "You're the best, Yumi.~"
+
+voice "c-11-133.mp3" #Stacey (Ashe Thurman)
+sta "Make sure to have her sign it on the chest so she'll always be touching my heart."
+
+voice "c-11-134.mp3" #Yumi (Kathy Pfautsch)
+yum "Aww."
+
+voice "c-11-135.mp3" #Stacey (Ashe Thurman)
+sta "And my titties."
+
+voice "c-11-136.mp3" #Yumi (Kathy Pfautsch)
+yum "Oh."
+
+voice "c-11-137.mp3" #Stacey (Ashe Thurman)
+sta "Nah but really though, if she's so hellbent on world conquest, then the least I can do is tell her she has at least one fan."
+
+voice "c-11-138.mp3" #Yumi (Kathy Pfautsch)
+yum "You're too sweet, Stacey."
+jump s11merge
+
+#dialogue path from ">>Advise her against it"
+
+label noautograph:
+voice "c-11-139.mp3" #Yumi (Kathy Pfautsch)
+yum "You know that's not something you can just ask someone as unpredictable as her, right?"
+
+voice "c-11-140.mp3" #Yumi (Kathy Pfautsch)
+yum "Besides, getting an autograph on a t-shirt is a {i}terrible{/i} idea! It'd disappear the instant you put it in the washer!"
+
+voice "c-11-141.mp3" #Stacey (Ashe Thurman)
+sta "You make it sound like I'd actually wash it."
+
+voice "c-11-142.mp3" #Yumi (Kathy Pfautsch)
+yum "...That aside, my point remains. We better not get too comfortable with her if we can help it."
+
+voice "c-11-143.mp3" #Stacey (Ashe Thurman)
+sta "Sure. Whatever you say."
+
+#merge
+
+voice "c-11-144.mp3" #Yumi (Kathy Pfautsch)
+yum "Well, anyways, I'd better head back. Gotta keep an eye on Kamika and all that."
+
+voice "c-11-145.mp3" #Stacey (Ashe Thurman)
+sta "Right-o. I'll be doing what I've always been doing. Which ain't a whole lot, but I'll be around if you need me."
+
+voice "c-11-146.mp3" #Yumi (Kathy Pfautsch)
+yum "Right, thank you."
+
+label s11merge:
+"Saying our goodbyes, we both head our respective ways."
+
+
 jump scene12

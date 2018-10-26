@@ -86,6 +86,83 @@ yum "Wait."
 
 "My eyes glide over to the wall of the building, where an unfinished mural covers the neglected wall, a dreamscape of electric indigo, sapphire, and lilac tones."
 
+
+#choice
+#>>"This is good!"
+#>>"This is illegal."
+
+menu:
+    "This is good!":
+        $ lucca_points += 1
+        jump praiselucca
+    "This is illegal.":
+        jump criminallucca
+
+#dialogue path from ">>"This looks very illegal.""
+
+label criminallucca:
+"...God dammit, I can't go anywhere without seeing these demons causing trouble, can I?"
+
+"I'm not even sure what I'm looking at right now, but right now I don't even care. I turn to glare at Lucca."
+
+voice "c-7i-a.mp3" #Yumi (Kathy Pfautsch)
+yum "What are you {i}thinking{/i}, Lucca?!"
+
+voice "c-7i-b.mp3" #Lucca (Victoria Wong)
+luc "Yumi, wait, I-I can explain-!"
+
+voice "c-7i-c.mp3" #Yumi (Kathy Pfautsch)
+yum "If you're trying to blend into the school, then why are you doing {i}this?{/i}"
+
+voice "c-7i-d.mp3" #Yumi (Kathy Pfautsch)
+yum "This is super illegal, you know. You could go to {i}jail{/i} for this!"
+
+voice "c-7i-e.mp3" #Lucca (Victoria Wong)
+luc "I-I'm sorry! I just... I wanted to express myself..."
+
+"Geez, she's really good at making me feel like the bad guy here. But that doesn't mean I'm gonna allow this to slide."
+
+voice "c-7if.mp3" #Yumi (Kathy Pfautsch)
+yum "Look, I'm not gonna report you for this or anything. Just... try to clean up after yourself, alright?"
+
+voice "c-7i-g.mp3" #Lucca (Victoria Wong)
+luc "O-okay..."
+
+"She looks utterly crushed... Meanwhile, my eyes drift back to the mural."
+jump s7imerge
+
+#dialogue path from ">>"This looks good.""
+
+label praiselucca:
+"I'm not quite sure what I'm looking at, but it's fascinating. In terms of linework, it's somewhere between a heraldic rose and one of those dust clouds you see in American newspaper comics when people get into a fight."
+
+"Before I can inspect the creation anything further, Lucca leaps in front of the graffiti with starling alacrity and throws her arms out."
+
+voice "c-7i-h.mp3" #Lucca (Victoria Wong)
+luc "No, no, no! Please don't look at it before it's finished! It makes me so nervous..."
+
+voice "c-7i-i.mp3" #Yumi (Kathy Pfautsch)
+yum "It looks really good already, though!"
+
+voice "c-7i-j.mp3" #Lucca (Victoria Wong)
+luc "Aaaah, I don't want to hear that! Getting feedback on a piece before it's done is bad luck!"
+
+"...Who would have ever expected a demon to be superstitious?"
+
+"Or, wait—should a demon be {i}more{/i} likely to be superstitious, because they know more about how the universe works?"
+
+"Nah, nevermind, demons never know anything."
+
+voice "c-7i-k.mp3" #Yumi (Kathy Pfautsch)
+yum "Okay, okay! I'm sorry. I won't look at it."
+
+voice "c-7i-l.mp3" #Lucca (Victoria Wong)
+luc "Thank you..."
+
+jump s7imerge
+#merge
+
+label s7imerge:
 "I'm not quite sure what I'm looking at, but it's fascinating. In terms of linework, it's somewhere between a heraldic rose and one of those dust clouds you see in American newspaper comics when people get into a fight."
 
 "Before I can inspect the creation anything further, Lucca leaps in front of the graffiti with starling alacrity and throws her arms out."
