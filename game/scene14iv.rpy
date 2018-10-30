@@ -3,22 +3,22 @@ scene dormroom
 
 "I decide to check in with Kamika. She's putzing around my room again. As usual."
 
-voice "c-14iv-1.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-1.wav" #Kamika (Ariane Marchese)
 kam "Oh. It's {i}you.{/i}"
 
-voice "c-14iv-2.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-2.wav" #Kamika (Ariane Marchese)
 kam "Can you go brood somewhere else? I'm busy."
 
-voice "c-14iv-3.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-3.wav" #Yumi (Kathy Pfautsch)
 yum "Uh, hello? This is my room."
 
-voice "c-14iv-4.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-4.wav" #Kamika (Ariane Marchese)
 kam "Tch. {i}Everything{/i} belongs to me, remember?"
 
-voice "c-14iv-5.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-5.wav" #Yumi (Kathy Pfautsch)
 yum "Okay, you're insufferable. I'm leaving."
 
-voice "c-14iv-6.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-6.wav" #Kamika (Ariane Marchese)
 kam "And good riddance."
 
 "I decide to leave that skank behind and work outside."
@@ -36,7 +36,7 @@ kam "And good riddance."
 "I can capture everything! It feels fantastic to just... be an artist again!"
 "This is easily my best work. I feel unstoppable!"
 
-voice "c-14iv-7.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-7.wav" #Yumi (Kathy Pfautsch)
 yum "Yaaaaaaaaawn..."
 
 "Unstoppable to anything but the end of the day, that is."
@@ -65,7 +65,7 @@ yum "Yaaaaaaaaawn..."
 #music stops
 "Only to find that there's no one there."
 
-voice "c-14iv-8.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-8.wav" #Yumi (Kathy Pfautsch)
 yum "Huh? But..."
 
 "It's not Saturday, is it?"
@@ -77,97 +77,97 @@ yum "Huh? But..."
 #Kamika's Theme
 "I hear the intercom click on and feel my heart hit the floor."
 
-voice "c-14iv-9.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-9.wav" #Kamika (Ariane Marchese)
 kam "Ueeeeeheheheheheheheheheeeeee!"
 
-voice "c-14iv-10.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-10.wav" #Kamika (Ariane Marchese)
 kam "Awww, Yumi, don't you just look {i}adorable{/i} sitting there alllll aloooooone!~"
 
-voice "c-14iv-11.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-11.wav" #Yumi (Kathy Pfautsch)
 yum "I'm... all alone...?"
 
-voice "c-14iv-12.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-12.wav" #Kamika (Ariane Marchese)
 kam "Of course! You see, while {i}you{/i} were wasting your time on schoolwork, {i}I{/i} was putting my plan into action!"
 
-voice "c-14iv-13.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-13.wav" #Kamika (Ariane Marchese)
 kam "Every single one of those sheep your school calls students has {i}finally{/i} acknowledged me as their rightful empress."
 
-voice "c-14iv-14.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-14.wav" #Kamika (Ariane Marchese)
 kam "Barring one little nuisance."
 
-voice "c-14iv-15.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-15.wav" #Kamika (Ariane Marchese)
 kam "So yes, Yumi. You. Are. Alone. Everyone here is united toward a single noble cause: Mine!"
 
-voice "c-14iv-16.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-16.wav" #Kamika (Ariane Marchese)
 kam "Except for you."
 
-voice "c-14iv-17.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-17.wav" #Yumi (Kathy Pfautsch)
 yum "Alone..."
 
-voice "c-14iv-18.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-18.wav" #Kamika (Ariane Marchese)
 kam "Yes, Yumi. {i}Please{/i} keep up with the conversation."
 
-voice "c-14iv-19.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-19.wav" #Kamika (Ariane Marchese)
 kam "But! Not to worry. I'm nothing if not a {i}merciful{/i} empress. So I {i}suppose{/i} that if you get on your knees and beg, I {i}might{/i} find it in my heart to accept you as a minion."
 
-voice "c-14iv-20.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-20.wav" #Kamika (Ariane Marchese)
 kam "You'll have to climb up the ranks from the very bottom, of course, but you might manage it within your lifetime."
 
-voice "c-14iv-21.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-21.wav" #Yumi (Kathy Pfautsch)
 yum "I'm all alone!"
 
-voice "c-14iv-22.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-22.wav" #Kamika (Ariane Marchese)
 kam "Okay, could you quit it with that? I'm trying to assert dominance here, and you're {i}really{/i} killing the moment."
 
-voice "c-14iv-23.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-23.wav" #Yumi (Kathy Pfautsch)
 yum "{i}I'm finally alone!{/i}"
 
-voice "c-14iv-24.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-24.wav" #Yumi (Kathy Pfautsch)
 yum "I'm free! Free from you, free from... from everyone!"
 
-voice "c-14iv-25.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-25.wav" #Yumi (Kathy Pfautsch)
 yum "I can finally... {i}finally{/i} live how I want!"
 
-voice "c-14iv-26.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-26.wav" #Kamika (Ariane Marchese)
 kam "Uh... Excuse me? You know I just made all of your classmates my slaves, right? That doesn't bother you? I feel like that should bother you."
 
-voice "c-14iv-27.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-27.wav" #Yumi (Kathy Pfautsch)
 yum "Who cares? It's not my problem!"
 
-voice "c-14iv-28.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-28.wav" #Kamika (Ariane Marchese)
 kam "And your teachers! You'll never graduate without any teachers!"
 
-voice "c-14iv-29.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-29.wav" #Yumi (Kathy Pfautsch)
 yum "That's the brilliant part! I'll just teach {i}myself!{/i}"
 
-voice "c-14iv-30.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-30.wav" #Kamika (Ariane Marchese)
 kam "You can't be serious."
 
-voice "c-14iv-31.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-31.wav" #Yumi (Kathy Pfautsch)
 yum "And why not? Other people have only ever annoyed me and held me back! Sure, a teacher would {i}help{/i}, but that's just the price I pay for having no one to bother me."
 
-voice "c-14iv-32.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-32.wav" #Yumi (Kathy Pfautsch)
 yum "And oh, {i}God{/i} is it worth it!"
 
-voice "c-14iv-33.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-33.wav" #Kamika (Ariane Marchese)
 kam "So... you're not going to stop me."
 
-voice "c-14iv-34.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-34.wav" #Yumi (Kathy Pfautsch)
 yum "Nope!"
 
-voice "c-14iv-35.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-35.wav" #Kamika (Ariane Marchese)
 kam "And... you're not going to join me, either?"
 
-voice "c-14iv-36.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-36.wav" #Yumi (Kathy Pfautsch)
 yum "Oh, hell no."
 
-voice "c-14iv-37.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-37.wav" #Kamika (Ariane Marchese)
 kam "Then what are you even {i}good{/i} for?! You can't... You can't just ignore me! I took over the school! I'm {i}important,{/i} god damn you!"
 
-voice "c-14iv-38.mp3" #Yumi (Kathy Pfautsch)
+voice "c-14iv-38.wav" #Yumi (Kathy Pfautsch)
 yum "Yoooouuuu just keep telling yourself that. But me? I'm gonna go draw the ocean! {i}And no one can stop me!{/i}"
 
-voice "c-14iv-39.mp3" #Kamika (Ariane Marchese)
+voice "c-14iv-39.wav" #Kamika (Ariane Marchese)
 kam "Oh, no you're not! You sit your ass down and- Yumi! Where are you going? Yumi? YUMIIIIIIII!"
 
 #fade to black

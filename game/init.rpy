@@ -37,6 +37,12 @@ $ lucca_points = 0
 # Sprite Declaration #
 ######################
 
+image kamika reader test = "images/kamikatest.png"
+image kamika2 aside test = "images/kamikatest2.png"
+image stacey test = "images/staceytest.png"
+image moe test = "images/moetest.png"
+image lucca test = "images/luccatest.png"
+
 ##################
 # BG Declaration #
 ##################

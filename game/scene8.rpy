@@ -19,29 +19,29 @@ scene black
 "My mind swims with useless, empty thoughts while I struggle on the balancing act of being both asleep and awake at the same time."
 "And just when it feels like everything starts fading away... a voice enters my head."
 
-voice "c-8-1.mp3" #Kamika (Ariane Marchese)
+voice "c-8-1.wav" #Kamika (Ariane Marchese)
 kam "It's almost time, Yumi~"
 
 "...My eyes dare not open."
 "Is this a dream? Or am I awake right now? I'll regret the answer either way, so I try not to think about it."
 "But the voice in my head continues."
 
-voice "c-8-2.mp3" #Kamika (Ariane Marchese)
+voice "c-8-2.wav" #Kamika (Ariane Marchese)
 kam "Very soon, my brilliant plan will be set into motion."
 
-voice "c-8-3.mp3" #Kamika (Ariane Marchese)
+voice "c-8-3.wav" #Kamika (Ariane Marchese)
 kam "It's been such a long time coming, but now... now is the time to make it a reality."
 
-voice "c-8-4.mp3" #Kamika (Ariane Marchese)
+voice "c-8-4.wav" #Kamika (Ariane Marchese)
 kam "By the end of this week, the entire school will be drunk with adoration for their true mistress~"
 
-voice "c-8-5.mp3" #Kamika (Ariane Marchese)
+voice "c-8-5.wav" #Kamika (Ariane Marchese)
 kam "You can picture it now, can't you? Everyone around you, young and old, will be celebrating my name and worshipping me as their goddess~"
 
-voice "c-8-6.mp3" #Kamika (Ariane Marchese)
+voice "c-8-6.wav" #Kamika (Ariane Marchese)
 kam "There will be no tears, no bloodshed... The masses will be too encaptivated to even fight back."
 
-voice "c-8-7.mp3" #Kamika (Ariane Marchese)
+voice "c-8-7.wav" #Kamika (Ariane Marchese)
 kam "It will be the end of what you once knew... and the beginning of my beautiful utopia~"
 
 #BRANCH: dialogue path based on not helping Kamika
@@ -51,50 +51,50 @@ else:
     jump s8free
 
 label s8free:
-voice "c-8-8.mp3" #Kamika (Ariane Marchese)
+voice "c-8-8.wav" #Kamika (Ariane Marchese)
 kam "And not even {i}you{/i}, dear Yumi, will be able to stop it~"
 
-voice "c-8-9.mp3" #Kamika (Ariane Marchese)
+voice "c-8-9.wav" #Kamika (Ariane Marchese)
 kam "You can struggle and scream all you want, but by the time you do anything, you will be too late."
 
-voice "c-8-10.mp3" #Kamika (Ariane Marchese)
+voice "c-8-10.wav" #Kamika (Ariane Marchese)
 kam "Everyone you know and love will become my loyal slave, leaving you with nobody."
 
-voice "c-8-11.mp3" #Kamika (Ariane Marchese)
+voice "c-8-11.wav" #Kamika (Ariane Marchese)
 kam "You will be forgotten and alone."
 
-voice "c-8-12.mp3" #Kamika (Ariane Marchese)
+voice "c-8-12.wav" #Kamika (Ariane Marchese)
 kam "...But it's only after I've broken your spirit that I'll break your mind as well."
 
-voice "c-8-13.mp3" #Kamika (Ariane Marchese)
+voice "c-8-13.wav" #Kamika (Ariane Marchese)
 kam "You'll come to realize what a fool you've been, so you'll come crawling to me, {i}begging{/i} me to shower you with love and affection."
 
-voice "c-8-14.mp3" #Kamika (Ariane Marchese)
+voice "c-8-14.wav" #Kamika (Ariane Marchese)
 kam "So don't you worry your pretty little head... I'll give you what you crave in due time~"
 jump s8merge
 
 #BRANCH: dialogue path based on helping Kamika
 
 label s8minion:
-voice "c-8-15.mp3" #Kamika (Ariane Marchese)
+voice "c-8-15.wav" #Kamika (Ariane Marchese)
 kam "But you wanted this to happen anyway, didn't you dear Yumi~?"
 
-voice "c-8-16.mp3" #Kamika (Ariane Marchese)
+voice "c-8-16.wav" #Kamika (Ariane Marchese)
 kam "You realized it was pointless to defy me, and now your wisdom has become my greatest asset."
 
-voice "c-8-17.mp3" #Kamika (Ariane Marchese)
+voice "c-8-17.wav" #Kamika (Ariane Marchese)
 kam "We'll captivate everyone you know and love and convert them to my side, where they will gladly stay forevermore."
 
-voice "c-8-18.mp3" #Kamika (Ariane Marchese)
+voice "c-8-18.wav" #Kamika (Ariane Marchese)
 kam "Everyone will realize what truly matters thanks to you."
 
-voice "c-8-19.mp3" #Kamika (Ariane Marchese)
+voice "c-8-19.wav" #Kamika (Ariane Marchese)
 kam "And then, once we've claimed the entire world... I'll give you your eternal reward."
 
-voice "c-8-20.mp3" #Kamika (Ariane Marchese)
+voice "c-8-20.wav" #Kamika (Ariane Marchese)
 kam "I'll give you attention and love, {i}every night{/i}, just between the two of us. And you will gladly accept it, just as you have accepted me."
 
-voice "c-8-21.mp3" #Kamika (Ariane Marchese)
+voice "c-8-21.wav" #Kamika (Ariane Marchese)
 kam "Once we've accomplished our goals, I'll make you the happiest woman on the planet~"
 jump s8merge
 
@@ -111,7 +111,7 @@ label s8merge:
 "She's not just whispering to me... she's cuddling up to me! In my own bed! After I {i}just{/i} told her not to touch me!"
 "She doesn't even have a hint of remorse on her face as she smiles at me!"
 
-voice "c-8-22.mp3" #Kamika (Ariane Marchese)
+voice "c-8-22.wav" #Kamika (Ariane Marchese)
 kam "Good morning, my dear~"
 
 "Rage overtakes me in an instant. I've dealt with this shit enough already!"
@@ -119,7 +119,7 @@ kam "Good morning, my dear~"
 
 #CG: show pillow being thrown at Kamika's face in CG
 
-voice "c-8-23.mp3" #Yumi (Kathy Pfautsch)
+voice "c-8-23.wav" #Yumi (Kathy Pfautsch)
 yum "{i}GET OFF!!!{/i}"
 
 #fade CG
@@ -131,29 +131,29 @@ yum "{i}GET OFF!!!{/i}"
 
 #show kam annoyed
 
-voice "c-8-24.mp3" #Kamika (Ariane Marchese)
+voice "c-8-24.wav" #Kamika (Ariane Marchese)
 kam "Oww...! That {i}hurt{/i}, god dammit! Is that how you {i}thank{/i} people for waking you up?!"
 
-voice "c-8-25.mp3" #Yumi (Kathy Pfautsch)
+voice "c-8-25.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Other{/i} people don't try to {i}sneak into my bed without permission{/i}, you {i}creep!{/i} You are sleeping on the {i}floor{/i} from now on!"
 
 #show kam yelling
 
-voice "c-8-26.mp3" #Kamika (Ariane Marchese)
+voice "c-8-26.wav" #Kamika (Ariane Marchese)
 kam "{i}WHAT?!{/i} That's {i}BULLSHIT!!{/i} At least let me sleep on the couch!"
 
-voice "c-8-27.mp3" #Yumi (Kathy Pfautsch)
+voice "c-8-27.wav" #Yumi (Kathy Pfautsch)
 yum "I don't want your gross ass anywhere {i}NEAR{/i} the couch at night! You're sleeping on the floor, {i}no exceptions!{/i}"
 
 #show kam annoyed
 
-voice "c-8-28.mp3" #Kamika (Ariane Marchese)
+voice "c-8-28.wav" #Kamika (Ariane Marchese)
 kam "God, {i}fine{/i}. Didn't think you were gonna be such a {i}bitch{/i} about this!"
 
 "It's taking every ounce of strength within me to not rip this girl's head off right here and now."
 "I cast a cursory glance to my alarm clock, only to discover it's nearly 8 AM already!"
 
-voice "c-8-29.mp3" #Yumi (Kathy Pfautsch)
+voice "c-8-29.wav" #Yumi (Kathy Pfautsch)
 yum "Oh god {i}dammit!{/i} I'm gonna be late!"
 
 "I spring out of bed in a rush, trying as hard as I can to get ready for the day. Kamika simply observes me."
@@ -167,20 +167,20 @@ else:
 #show kam confident, eyes closed
 
 label s8free2:
-voice "c-8-30.mp3" #Kamika (Ariane Marchese)
+voice "c-8-30.wav" #Kamika (Ariane Marchese)
 kam "Alright, well while you attend to your {i}human{/i} obligations, {i}I'm{/i} going to go put things in motion!"
 
-voice "c-8-31.mp3" #Kamika (Ariane Marchese)
+voice "c-8-31.wav" #Kamika (Ariane Marchese)
 kam "You're gonna be left {i}kicking{/i} yourself once you see what I have in store~"
 
 #show kam laughing
 
-voice "c-8-32.mp3" #Kamika (Ariane Marchese)
+voice "c-8-32.wav" #Kamika (Ariane Marchese)
 kam "Nyahahaha~! Later!"
 
 #hide kam
 
-voice "c-8-33.mp3" #Yumi (Kathy Pfautsch)
+voice "c-8-33.wav" #Yumi (Kathy Pfautsch)
 yum "Wait!"
 
 "And with that, she darts away, leaving me to fend for myself."
@@ -197,20 +197,20 @@ label s8minion2:
 
 #show kam demanding
 
-voice "c-8-34.mp3" #Kamika (Ariane Marchese)
+voice "c-8-34.wav" #Kamika (Ariane Marchese)
 kam "Don't forget; as {i}soon{/i} as you're done with your human obligations, you come straight to me! Got it?"
 
-voice "c-8-35.mp3" #Yumi (Kathy Pfautsch)
+voice "c-8-35.wav" #Yumi (Kathy Pfautsch)
 yum "Ugh, fine, whatever, just lemme get my bearings together already!"
 
 #show kam confident
 
-voice "c-8-36.mp3" #Kamika (Ariane Marchese)
+voice "c-8-36.wav" #Kamika (Ariane Marchese)
 kam "Hehehehe~ We're going to be having {i}so{/i} much fun today~!"
 
 #show kam confident, eyes closed
 
-voice "c-8-37.mp3" #Kamika (Ariane Marchese)
+voice "c-8-37.wav" #Kamika (Ariane Marchese)
 kam "I'll go and get things ready! Toodles~!"
 
 #hide kam
