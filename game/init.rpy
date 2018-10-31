@@ -2,13 +2,13 @@
 # Character Declaration #
 #########################
 #IMPORTANT CHARACTERS
-define yum = Character('Yumi', color="#FFFFFF", voice_tag="yum")
-define kam = Character('Kamika', color="#FFFFFF", voice_tag="kam", dynamic=True)
-define sta = Character('Stacey', color="#FFFFFF", voice_tag="sta")
-define luc = Character('Lucca', color="#FFFFFF", voice_tag="yum", dynamic=True)
-define lev = Character('Levi', color="#FFFFFF", voice_tag="lev")
-define moe = Character('Moe', color="#FFFFFF", voice_tag="moe")
-define sat = Character('S-Tan', color="#FFFFFF", voice_tag="sat")
+define yum = Character("Yumi", color="#FFFFFF", voice_tag="yum")
+define kam = Character("Kamika", color="#FFFFFF", voice_tag="kam", dynamic=True)
+define sta = Character("Stacey", color="#FFFFFF", voice_tag="sta")
+define luc = Character("Lucca", color="#FFFFFF", voice_tag="yum", dynamic=True)
+define lev = Character("Levi", color="#FFFFFF", voice_tag="lev")
+define moe = Character("Moe", color="#FFFFFF", voice_tag="moe")
+define sat = Character("S-Tan", color="#FFFFFF", voice_tag="sat")
 
 init:
     $ luc_name = "???"
@@ -36,12 +36,6 @@ $ lucca_points = 0
 ######################
 # Sprite Declaration #
 ######################
-
-image kamika reader test = "images/kamikatest.png"
-image kamika2 aside test = "images/kamikatest2.png"
-image stacey test = "images/staceytest.png"
-image moe test = "images/moetest.png"
-image lucca test = "images/luccatest.png"
 
 ##################
 # BG Declaration #

@@ -1,29 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While parsing E:\Ah!! My Roommate is a Succubus Hellbent on World Conquest!!/game/scene7iii.rpy.
-UnicodeDecodeError: 'utf8' codec can't decode byte 0x92 in position 13179: invalid start byte
+While running game code:
+  File "game/init.rpy", line 41, in script
+    init python:
+  File "game/init.rpy", line 42, in <module>
+    DefineImages('bgs', prepend='bg')
+NameError: name 'DefineImages' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "E:\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 306, in bootstrap
-    renpy.main.main()
-  File "E:\renpy-6.99.12.4-sdk\renpy\main.py", line 357, in main
-    renpy.game.script.load_script()  # sets renpy.game.script.
-  File "E:\renpy-6.99.12.4-sdk\renpy\script.py", line 266, in load_script
-    self.load_appropriate_file(".rpyc", ".rpy", dir, fn, initcode)
-  File "E:\renpy-6.99.12.4-sdk\renpy\script.py", line 742, in load_appropriate_file
-    data, stmts = self.load_file(dir, fn + source)
-  File "E:\renpy-6.99.12.4-sdk\renpy\script.py", line 553, in load_file
-    stmts = renpy.parser.parse(fullfn)
-  File "E:\renpy-6.99.12.4-sdk\renpy\parser.py", line 2603, in parse
-    lines = list_logical_lines(fn, filedata, linenumber)
-  File "E:\renpy-6.99.12.4-sdk\renpy\parser.py", line 214, in list_logical_lines
-    data = f.read().decode("utf-8")
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/encodings/utf_8.py", line 16, in decode
-UnicodeDecodeError: 'utf8' codec can't decode byte 0x92 in position 13179: invalid start byte
+  File "game/init.rpy", line 41, in script
+    init python:
+  File "E:\renpy-6.99.12.4-sdk\renpy\ast.py", line 862, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "E:\renpy-6.99.12.4-sdk\renpy\python.py", line 1912, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/init.rpy", line 42, in <module>
+    DefineImages('bgs', prepend='bg')
+NameError: name 'DefineImages' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
  
-Thu Oct 25 21:54:17 2018
+Tue Oct 30 20:49:56 2018

@@ -1,16 +1,9 @@
 label scene1:
 
-show kamika reader test:
-    align (0.0, 1.0)
-show stacey test:
-    align (0.5, 1.0)
-show moe test:
-    align (0.75, 1.0)
-show lucca test:
-    align (1.0, 1.0)
 voice "c-1-1.wav" #Yumi (Kathy Pfautsch)
 yum "Ughhh, why did they schedule art history for the early hours of the goddamn morning..."
 
+show stacey default with dissolve
 voice "c-1-2.wav" #Stacey (Ashe Thurman)
 sta "It's not even that early? It's only like 8:30."
 
