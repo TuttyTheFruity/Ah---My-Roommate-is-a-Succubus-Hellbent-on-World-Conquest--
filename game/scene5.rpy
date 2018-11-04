@@ -1,9 +1,9 @@
 label scene5:
 scene dormhallway
 
-"After a quick stop for lunch, I make my way back to the dorms."
+"After a quick stop for lunch, I make my way back to the dorms. The thought of a phone call's still fresh in my mind, but..."
+"I don't trust Kamika to behave herself in my absense. I'll swing by the apartment, drop my stuff off, and make the call afterwards."
 "I somehow feel just as worn out talking with Lucca as I do with Kamika, but for... different reasons."
-"Don't {i}any{/i} of these demons know how to act like a normal person?! Or is it just {i}me{/i} that's the crazy one? Am I losing my grip on reality??"
 "What I wouldn't give to just get back to my room and pretend this day never happened."
 "I'm just glad I finally have a lead on how to fix all this, although whether or not it'll actually work is beyond me."
 "As I turn the key and enter my room, I pray that the last couple hours really {i}have{/i} been some crazy hallucination..."

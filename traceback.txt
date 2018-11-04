@@ -1,72 +1,37 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scene1.rpy", line 319, in script
-    voice "c-1-81.wav" #Stacey (Ashe Thurman)
-Exception: Unknown text tag u'I'
+  File "renpy/common/00console.rpy", line 769, in script call
+    return
+  File "renpy/common/00console.rpy", line 765, in script call
+    python in _console:
+  File "game/scene3.rpy", line 384, in script
+    kam "Humph! Killjoy."
+NameError: name 'Kamika' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scene1.rpy", line 319, in script
-    voice "c-1-81.wav" #Stacey (Ashe Thurman)
+  File "renpy/common/00console.rpy", line 769, in script call
+    return
+  File "renpy/common/00console.rpy", line 765, in script call
+    python in _console:
+  File "game/scene3.rpy", line 384, in script
+    kam "Humph! Killjoy."
   File "E:\renpy-6.99.12.4-sdk\renpy\ast.py", line 652, in execute
     renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
   File "E:\renpy-6.99.12.4-sdk\renpy\exports.py", line 1199, in say
     who(what, *args, **kwargs)
-  File "E:\renpy-6.99.12.4-sdk\renpy\character.py", line 1016, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "E:\renpy-6.99.12.4-sdk\renpy\character.py", line 817, in do_display
-    **display_args)
-  File "E:\renpy-6.99.12.4-sdk\renpy\character.py", line 566, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "E:\renpy-6.99.12.4-sdk\renpy\ui.py", line 287, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2649, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3132, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2055, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 485, in renpy.display.render.render_screen
-  File "render.pyx", line 233, in renpy.display.render.render
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 145, in renpy.display.render.render
-  File "render.pyx", line 233, in renpy.display.render.render
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 145, in renpy.display.render.render
-  File "render.pyx", line 233, in renpy.display.render.render
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 145, in renpy.display.render.render
-  File "render.pyx", line 233, in renpy.display.render.render
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 669, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 145, in renpy.display.render.render
-  File "render.pyx", line 233, in renpy.display.render.render
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 145, in renpy.display.render.render
-  File "render.pyx", line 233, in renpy.display.render.render
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 1117, in render
-    st, at)
-  File "render.pyx", line 145, in renpy.display.render.render
-  File "render.pyx", line 233, in renpy.display.render.render
-  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 145, in renpy.display.render.render
-  File "render.pyx", line 233, in renpy.display.render.render
-  File "E:\renpy-6.99.12.4-sdk\renpy\text\text.py", line 1825, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "E:\renpy-6.99.12.4-sdk\renpy\text\text.py", line 563, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "E:\renpy-6.99.12.4-sdk\renpy\text\text.py", line 1078, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag u'I'
+  File "E:\renpy-6.99.12.4-sdk\renpy\character.py", line 982, in __call__
+    who = renpy.python.py_eval(who)
+  File "E:\renpy-6.99.12.4-sdk\renpy\python.py", line 1943, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "E:\renpy-6.99.12.4-sdk\renpy\python.py", line 1936, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'Kamika' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
 Ah!! My Roommate is a Succubus Hellbent on World Conquest!! 1.0
-Sat Nov 03 03:53:46 2018
+Sun Nov 04 02:10:09 2018

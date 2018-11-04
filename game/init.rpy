@@ -10,10 +10,6 @@ define lev = Character("Levi", color="#FFFFFF", voice_tag="lev", callback=speake
 define moe = Character("Moe", color="#FFFFFF", voice_tag="moe", callback=speaker("moe"))
 define sat = Character("S-Tan", color="#FFFFFF", voice_tag="sat", callback=speaker("satan"))
 
-init:
-    $ luc_name = "Weird Exchange Student"
-    $ kam_name = "???"
-
 init python:
     DefineImages('bgs', prepend='bg')
     DefineImages('cgs', prepend='cg')
@@ -53,10 +49,25 @@ init python:
     MapEmote('kamika u smugclosed', 'kamika pose1 public md happy ec default brow sad')
     MapEmote('kamika u smug', 'kamika pose1 public md happy ed default brow sad')
     MapEmote('kamika u smugsquint', 'kamika pose1 public md happy ed squint brow sad')
-    MapEmote('kamika u wideeyes', 'kamika pose1 public md default ed squint brow surprise')
+    MapEmote('kamika u wideeyes', 'kamika pose1 public md default ed default brow surprise')
     MapEmote('kamika u happyclosed', 'kamika pose1 public md happy ec happy brow surprise')
     MapEmote('kamika u happy', 'kamika pose1 public md happy ed happy brow surprise')
     MapEmote('kamika u sigh', 'kamika pose1 public md mad happy ec default brow sad')
+    MapEmote('kamika u silenced', 'kamika pose1 public mc baka ed default brow surprise')
+    MapEmote('kamika u pout', 'kamika pose1 public md pout ed default brow mad')
+    MapEmote('kamika u whine', 'kamika pose1 public md sad ed squint brow sad cry 0')
+    MapEmote('kamika u exclaim', 'kamika pose1 public md shout ed default brow surprise')
+    MapEmote('kamika u neutral', 'kamika pose1 public md default ed default brow default')
+    MapEmote('kamika u neutralclosed', 'kamika pose1 public md default ec default brow default')
+    MapEmote('kamika u confidentclosed', 'kamika pose1 public md happy ec default brow mad')
+    MapEmote('kamika u licklips', 'kamika pose1 public m licklips ed squint brow mad')
+    MapEmote('kamika u seduce', 'kamika pose1 public md happy ed default brow furrow')
+    MapEmote('kamika u seducesquint', 'kamika pose1 public md happy ed squint brow mad')
+    MapEmote('kamika u mad', 'kamika pose1 public md mad ed default brow mad')
+    MapEmote('kamika u simmons', 'kamika pose1 public m simmons ed squint brow raise')
+    MapEmote('kamika u simmonsclosed', 'kamika pose1 public m simmons ec happy brow raise')
+    MapEmote('kamika u questionsquint', 'kamika pose1 public md pout ed squint brow raise')
+    MapEmote('kamika u question', 'kamika pose1 public md pout ed default brow raise')
     #PAST THIS POINT IS NEW SHIT
 
     #KAMIKA LOOKING AT READER (DEMON FORM)
@@ -74,10 +85,25 @@ init python:
     MapEmote('kamika d smugclosed', 'kamika pose1 base md happy ec default brow sad')
     MapEmote('kamika d smug', 'kamika pose1 base md happy ed default brow sad')
     MapEmote('kamika d smugsquint', 'kamika pose1 base md happy ed squint brow sad')
-    MapEmote('kamika d wideeyes', 'kamika pose1 base md default ed squint brow surprise')
+    MapEmote('kamika d wideeyes', 'kamika pose1 base md default ed default brow surprise')
     MapEmote('kamika d happyclosed', 'kamika pose1 base md happy ec happy brow surprise')
     MapEmote('kamika d happy', 'kamika pose1 base md happy ed happy brow surprise')
     MapEmote('kamika d sigh', 'kamika pose1 base md mad happy ec default brow sad')
+    MapEmote('kamika d silenced', 'kamika pose1 base mc baka ed default brow surprise')
+    MapEmote('kamika d pout', 'kamika pose1 base md pout ed default brow mad')
+    MapEmote('kamika d whine', 'kamika pose1 base md sad ed squint brow sad cry 0')
+    MapEmote('kamika d exclaim', 'kamika pose1 base md shout ed default brow surprise')
+    MapEmote('kamika d neutral', 'kamika pose1 base md default ed default brow default')
+    MapEmote('kamika d neutralclosed', 'kamika pose1 base md default ec default brow default')
+    MapEmote('kamika d confidentclosed', 'kamika pose1 base md happy ec default brow mad')
+    MapEmote('kamika d licklips', 'kamika pose1 base m licklips ed squint brow mad')
+    MapEmote('kamika d seduce', 'kamika pose1 base md happy ed default brow furrow')
+    MapEmote('kamika d seducesquint', 'kamika pose1 base md happy ed squint brow mad')
+    MapEmote('kamika d mad', 'kamika pose1 base md mad ed default brow mad')
+    MapEmote('kamika d simmons', 'kamika pose1 base m simmons ed squint brow raise')
+    MapEmote('kamika d simmonsclosed', 'kamika pose1 base m simmons ec happy brow raise')
+    MapEmote('kamika d questionsquint', 'kamika pose1 base md pout ed squint brow raise')
+    MapEmote('kamika d question', 'kamika pose1 base md pout ed default brow raise')
     #PAST THIS POINT IS NEW SHIT
 
     #KAMIKA LOOKING AWAY
@@ -92,7 +118,16 @@ init python:
     MapEmote('lucca sigh', 'lucca base m sad ec default brow sad')
     MapEmote('lucca uwah', 'lucca base m uwah ec uwah brow sad')
     MapEmote('lucca doh', 'lucca base mc default ec uwah brow sadder blush')
-
+    MapEmote('lucca happy', 'lucca base md happy ed happy brow default')
+    MapEmote('lucca happyclosed', 'lucca base md happy ec happy brow default')
+    MapEmote('lucca bashful', 'lucca base md happy ed happy brow sad')
+    MapEmote('lucca ohno', 'lucca base md uwah ed default brow sad')
+    MapEmote('lucca aaaa', 'lucca base m uwah ed default brow sad')
+    MapEmote('lucca bigaaaa', 'lucca base m uwah ed default brow sadder')
+    MapEmote('lucca nervoussmile', 'lucca base md happy ed default brow sad')
+    MapEmote('lucca guilty', 'lucca base md sad ec default brow sad')
+    MapEmote('lucca mad', 'lucca base md mad ed default brow mad')
+    MapEmote('lucca happy', 'lucca base md happy ed happy brow sad')
     #MOE
     MapEmote('moe neutral', 'moe base md default ed default brow default')
     MapEmote('moe neutrallook', 'moe base md default ed side brow default')
@@ -103,7 +138,11 @@ init python:
     MapEmote('moe sigh', 'moe base md default ec default brow sad')
     MapEmote('moe sighsweat', 'moe base md default ec default brow sad optional sweatdrop')
 
-
+    #MADE BY ALF, DOUBLECHECK LATER
+    MapEmote('stacey neutralclosed', 'stacey base md sad ec default brow default')
+    MapEmote('stacey therocklook', 'stacey base md default ed side brow raised')
+    MapEmote('stacey evil', 'stacey base md default ed default brow mad')
+    MapEmote('stacey madlook', 'stacey base md sad ed side brow mad')
 
 #MINOR CHARACTERS
 define dee = Character('Mr. Deeks', color="#FFFFFF", voice_tag="dee")
@@ -116,17 +155,12 @@ define pg2 = Character('Partygoer 2', color="#FFFFFF", voice_tag="pg2")
 ######################
 # Flags              #
 ######################
-
-$ minion = False
-$ sawstacey = False
-$ helpkamika = False
-$ kamika_points = 0
-$ stacey_points = 0
-$ lucca_points = 0
-
-######################
-# Sprite Declaration #
-######################
+default minion = False
+default sawstacey = False
+default helpkamika = False
+default kamika_points = 0
+default stacey_points = 0
+default lucca_points = 0
 
 ##################
 # BG Declaration #
@@ -137,6 +171,24 @@ $ lucca_points = 0
 ###################
 
 #FULL CGS
+image phonedefault = "cgs/phone/phone_default.png"
+image phonecalling = "cgs/phone/phone_calling.png"
+image phonelevineutral = "cgs/phone/phone_levi1.png"
+image phonelevieyebrow = "cgs/phone/phone_levi2.png"
+image phonelevideadpan = "cgs/phone/phone_levi3.png"
+image phonelevirant = "cgs/phone/phone_levi4.png"
+image phonelevisigh = "cgs/phone/phone_levi5.png"
+image phonestanhappy = "cgs/phone/phone_s-tan1.png"
+image phonestanwink = "cgs/phone/phone_s-tan2.png"
+image phonestanclosed = "cgs/phone/phone_s-tan3.png"
+image phoneyumineutrallisten = "cgs/phone/phone_yumi1.png"
+image phoneyumineutraltalk = "cgs/phone/phone_yumi2.png"
+image phoneyumieyebrow = "cgs/phone/phone_yumi3.png"
+image phoneyumisurprise = "cgs/phone/phone_yumi4.png"
+image phoneyumidread = "cgs/phone/phone_yumi5.png"
+image phoneyumirant = "cgs/phone/phone_yumi6.png"
+image phoneyumiannoyed = "cgs/phone/phone_yumi7.png"
+image phoneyumisigh = "cgs/phone/phone_yumi8.png"
 
 #MINOR CGS
 image transformdemon = "cgs/transformdemon.png"
