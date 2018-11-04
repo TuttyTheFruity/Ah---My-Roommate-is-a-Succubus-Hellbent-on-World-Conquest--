@@ -266,6 +266,35 @@ luc "Err! No. No, I don't think so... She doesn't blend in public very well. And
 voice "c-7i-33.wav" #Yumi (Kathy Pfautsch)
 yum "Meh. That figures."
 
+##These lines weren't originally put in for some reason and so the voice files need to be added manually
+
+##voice ".wav" #Lucca (Victoria Wong)
+luc "It's all just... complicated. Succubi and incubi can be… fractious, together."
+
+##voice ".wav" #Yumi (Kathy Pfautsch)
+yum "Wait—an incubus? I thought incubi were male?"
+
+"She furrows her brow into an expression of deep concern."
+
+##voice ".wav" #Lucca (Victoria Wong)
+luc "That's very unexpectedly gender essentialist of you, Yumi."
+
+##voice ".wav" #Yumi (Kathy Pfautsch)
+yum "Oh. {i}Oh{/i}. I didn't know demons could be—"
+
+##voice ".wav" #Lucca (Victoria Wong)
+luc "Well, of course."
+
+##voice ".wav" #Yumi (Kathy Pfautsch)
+yum "...Duly noted. Sorry about that."
+
+##voice ".wav" #Lucca (Victoria Wong)
+luc "Ah, it's fine. You learn something new every day, right?"
+
+##voice ".wav" #Lucca (Victoria Wong)
+luc "Anyway, the thing with Kamika is… kind of a long story…"
+
+##I don't know what's going on with these lines but I'm not touching them —Leaty
 voice "c-7i-34.wav" #Lucca (Victoria Wong)
 luc "It's all just... kind of a long story..."
 
