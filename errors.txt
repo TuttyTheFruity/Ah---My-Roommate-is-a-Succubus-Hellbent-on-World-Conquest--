@@ -2,29 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scene3.rpy", line 261: expected statement.
-    kamika_points += 1
-                  ^
+File "game/scene2.rpy", line 154: end of line expected.
+    show transformhuman with dissolve zorder 2
+                                      ^
 
-File "game/scene9i.rpy", line 153: expected statement.
-    lucca_points += 1
-                 ^
-
-File "game/scene9ii.rpy", line 323: expected statement.
-    lucca_points += 1
-                 ^
-
-File "game/scene9ii.rpy", line 423: expected statement.
-    lucca_points += 1
-                 ^
-
-File "game/scene9ii.rpy", line 465: expected statement.
-    lucca_points += 1
-                 ^
-
-File "game/scene9ii.rpy", line 468: expected statement.
-    kamika_points += 1
-                  ^
+File "game/scene2.rpy", line 157: end of line expected.
+    show transformdemon with dissolve zorder 2
+                                      ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Thu Oct 25 03:46:02 2018
+Sat Nov 03 21:35:48 2018

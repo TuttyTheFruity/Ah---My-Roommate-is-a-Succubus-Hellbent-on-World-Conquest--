@@ -1,26 +1,72 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/init.rpy", line 17, in script
-    init python:
-  File "game/init.rpy", line 18, in <module>
-    DefineImages('bgs', prepend='bg')
-NameError: name 'DefineImages' is not defined
+  File "game/scene1.rpy", line 319, in script
+    voice "c-1-81.wav" #Stacey (Ashe Thurman)
+Exception: Unknown text tag u'I'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/init.rpy", line 17, in script
-    init python:
-  File "E:\renpy-6.99.12.4-sdk\renpy\ast.py", line 862, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy-6.99.12.4-sdk\renpy\python.py", line 1912, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/init.rpy", line 18, in <module>
-    DefineImages('bgs', prepend='bg')
-NameError: name 'DefineImages' is not defined
+  File "game/scene1.rpy", line 319, in script
+    voice "c-1-81.wav" #Stacey (Ashe Thurman)
+  File "E:\renpy-6.99.12.4-sdk\renpy\ast.py", line 652, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "E:\renpy-6.99.12.4-sdk\renpy\exports.py", line 1199, in say
+    who(what, *args, **kwargs)
+  File "E:\renpy-6.99.12.4-sdk\renpy\character.py", line 1016, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "E:\renpy-6.99.12.4-sdk\renpy\character.py", line 817, in do_display
+    **display_args)
+  File "E:\renpy-6.99.12.4-sdk\renpy\character.py", line 566, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "E:\renpy-6.99.12.4-sdk\renpy\ui.py", line 287, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2649, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3132, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2055, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 485, in renpy.display.render.render_screen
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 669, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 1117, in render
+    st, at)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "E:\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 717, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 145, in renpy.display.render.render
+  File "render.pyx", line 233, in renpy.display.render.render
+  File "E:\renpy-6.99.12.4-sdk\renpy\text\text.py", line 1825, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "E:\renpy-6.99.12.4-sdk\renpy\text\text.py", line 563, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "E:\renpy-6.99.12.4-sdk\renpy\text\text.py", line 1078, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag u'I'
 
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
- 
-Wed Oct 31 23:38:14 2018
+Ah!! My Roommate is a Succubus Hellbent on World Conquest!! 1.0
+Sat Nov 03 03:53:46 2018
