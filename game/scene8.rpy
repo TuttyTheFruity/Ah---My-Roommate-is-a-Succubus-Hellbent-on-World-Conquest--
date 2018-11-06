@@ -122,14 +122,13 @@ kam "Good morning, my dear~"
 voice "c-8-23.wav" #Yumi (Kathy Pfautsch)
 yum "{i}GET OFF!!!{/i}"
 
-#fade CG
-#scene bedroom
+show bedroom with dissolve
 
 "The force of my throw sends Kamika tumbling onto the floor."
 "Meanwhile, I'm left huffing and puffing, clearly wide awake now and not putting my consciousness through anymore torture."
-"That dirty bitch {i}cannot{/i} take no for an answer..."
+"Holy crap, she {i}cannot{/i} take no for an answer..."
 
-#show kam annoyed
+show kamika u angrysurprise with dissolve
 
 voice "c-8-24.wav" #Kamika (Ariane Marchese)
 kam "Oww...! That {i}hurt{/i}, god dammit! Is that how you {i}thank{/i} people for waking you up?!"
@@ -137,7 +136,7 @@ kam "Oww...! That {i}hurt{/i}, god dammit! Is that how you {i}thank{/i} people f
 voice "c-8-25.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Other{/i} people don't try to {i}sneak into my bed without permission{/i}, you {i}creep!{/i} You are sleeping on the {i}floor{/i} from now on!"
 
-#show kam yelling
+show kamika u shout
 
 voice "c-8-26.wav" #Kamika (Ariane Marchese)
 kam "{i}WHAT?!{/i} That's {i}BULLSHIT!!{/i} At least let me sleep on the couch!"
@@ -145,7 +144,7 @@ kam "{i}WHAT?!{/i} That's {i}BULLSHIT!!{/i} At least let me sleep on the couch!"
 voice "c-8-27.wav" #Yumi (Kathy Pfautsch)
 yum "I don't want your gross ass anywhere {i}NEAR{/i} the couch at night! You're sleeping on the floor, {i}no exceptions!{/i}"
 
-#show kam annoyed
+show kamika u madclosed
 
 voice "c-8-28.wav" #Kamika (Ariane Marchese)
 kam "God, {i}fine{/i}. Didn't think you were gonna be such a {i}bitch{/i} about this!"
@@ -166,19 +165,22 @@ else:
 
 #show kam confident, eyes closed
 
+show kamika u sigh
 label s8free2:
 voice "c-8-30.wav" #Kamika (Ariane Marchese)
 kam "Alright, well while you attend to your {i}human{/i} obligations, {i}I'm{/i} going to go put things in motion!"
 
+show kamika u smug
 voice "c-8-31.wav" #Kamika (Ariane Marchese)
 kam "You're gonna be left {i}kicking{/i} yourself once you see what I have in store~"
 
 #show kam laughing
 
+show kamika u evilgrinclosed
 voice "c-8-32.wav" #Kamika (Ariane Marchese)
 kam "Nyahahaha~! Later!"
 
-#hide kam
+hide kamika with easeoutright
 
 voice "c-8-33.wav" #Yumi (Kathy Pfautsch)
 yum "Wait!"
@@ -197,23 +199,24 @@ label s8minion2:
 
 #show kam demanding
 
+show kamika u neutral
 voice "c-8-34.wav" #Kamika (Ariane Marchese)
 kam "Don't forget; as {i}soon{/i} as you're done with your human obligations, you come straight to me! Got it?"
 
 voice "c-8-35.wav" #Yumi (Kathy Pfautsch)
 yum "Ugh, fine, whatever, just lemme get my bearings together already!"
 
-#show kam confident
+show kamika u confident
 
 voice "c-8-36.wav" #Kamika (Ariane Marchese)
 kam "Hehehehe~ We're going to be having {i}so{/i} much fun today~!"
 
-#show kam confident, eyes closed
+show kamika u confidentclosed
 
 voice "c-8-37.wav" #Kamika (Ariane Marchese)
 kam "I'll go and get things ready! Toodles~!"
 
-#hide kam
+hide kamika with easeoutright
 
 "And with that, she darts away."
 "I have her word that she won't try anything funny while on her own, but how much does that really mean when it's {i}Kamika{/i} we're talking about?"

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scene4.rpy", line 217: expected statement.
-    shoow lucca neutral
-                       ^
+File "game/scene6.rpy", line 314: expected statement.
+    sgiw phone1 levineutral
+                           ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Sun Nov 04 03:09:26 2018
+Mon Nov 05 19:57:32 2018

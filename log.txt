@@ -1,4 +1,4 @@
-Sun Nov 04 15:30:30 2018
+Tue Nov 06 17:09:03 2018
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
  
@@ -6,33 +6,32 @@ Ren'Py 7.0.0.196
 Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.07s
-Loading script took 0.67s
-Loading save slot metadata. took 0.08s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 CRITICAL                 
 --- launch game ---
 INFO                     Game directory: E:\Ah!! My Roommate is a Succubus Hellbent on World Conquest!!\game
-Running init code took 4.60s
+Running init code took 5.04s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Kevin\\AppData\\Roaming/RenPy/backups\\Ah!! My Roommate is a Succubus Hellbent on World Conquest!!':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.04s
 DPI scale factor: 1.000000
-Creating interface object took 0.13s
+Creating interface object took 0.05s
 Cleaning stores took 0.00s
 Init translation took 0.01s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.05s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
 Prepare screens took 0.04s
-Save pyanalysis. took 0.05s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.06s
 Running _start took 0.00s
 Performance test:
@@ -401,11 +400,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 6.52399992943s
+Total time until interface ready: 6.19499993324s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 - Frame drawn at 0.017667 seconds.
 - Frame drawn at 0.018667 seconds.
-- Frame drawn at 0.021667 seconds.
-- Frame drawn at 0.039667 seconds.
-- 0.039667 seconds to render 5 frames.
+- Frame drawn at 0.022666 seconds.
+- Frame drawn at 0.040667 seconds.
+- 0.040667 seconds to render 5 frames.

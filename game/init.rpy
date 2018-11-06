@@ -68,6 +68,11 @@ init python:
     MapEmote('kamika u simmonsclosed', 'kamika pose1 public m simmons ec happy brow raise')
     MapEmote('kamika u questionsquint', 'kamika pose1 public md pout ed squint brow raise')
     MapEmote('kamika u question', 'kamika pose1 public md pout ed default brow raise')
+    MapEmote('kamika u deadpan', 'kamika pose1 public md flat ed squint brow default')
+    MapEmote('kamika u confused', 'kamika pose1 public md flat ed default brow raise')
+    MapEmote('kamika u shoutclosed', 'kamika pose1 public md mad ec default brow mad optional angryvein')
+    MapEmote('kamika u evilsmile', 'kamika pose1 public md happy ed default brow mad')
+    MapEmote('kamika u evilsmileclosed', 'kamika pose1 public md happy ec default brow mad')
     #PAST THIS POINT IS NEW SHIT
 
     #KAMIKA LOOKING AT READER (DEMON FORM)
@@ -104,9 +109,27 @@ init python:
     MapEmote('kamika d simmonsclosed', 'kamika pose1 base m simmons ec happy brow raise')
     MapEmote('kamika d questionsquint', 'kamika pose1 base md pout ed squint brow raise')
     MapEmote('kamika d question', 'kamika pose1 base md pout ed default brow raise')
+    MapEmote('kamika d deadpan', 'kamika pose1 base md flat ed squint brow default')
+    MapEmote('kamika d confused', 'kamika pose1 base md flat ed default brow raise')
+    MapEmote('kamika d shoutclosed', 'kamika pose1 base md mad ec default brow mad optional angryvein')
+    MapEmote('kamika d evilsmile', 'kamika pose1 base md happy ed default brow mad')
+    MapEmote('kamika d evilsmileclosed', 'kamika pose1 base md happy ec default brow mad')
     #PAST THIS POINT IS NEW SHIT
 
+
     #KAMIKA LOOKING AWAY
+    MapEmote('kamika s annoyedside', 'kamika pose2 base md default ed side brow mad')
+    MapEmote('kamika s sigh', 'kamika pose2 base md default ec default brow mad')
+    MapEmote('kamika s annoyed', 'kamika pose2 base md default ed default brow mad')
+    MapEmote('kamika s simmonsclosed', 'kamika pose2 base md simmons ec happy brow mad')
+    MapEmote('kamika s smug', 'kamika pose2 base md smirk ed default brow mad')
+    MapEmote('kamika s hystericallaugh', 'kamika pose2 base md happy ec happy brow mad')
+    MapEmote('kamika s annoyedclosed', 'kamika pose2 base md default ec default brow mad')
+    MapEmote('kamika s grit', 'kamika pose2 base mc grimace ed default brow mad')
+    MapEmote('kamika s gritclosed', 'kamika pose2 base mc grimace ec default brow mad')
+    MapEmote('kamika s gritside', 'kamika pose2 base mc grimace ed side brow mad')
+    MapEmote('kamika s sad', 'kamika pose2 base md default ed default brow sad')
+    MapEmote('kamika s sadside', 'kamika pose2 base md default ed side brow sad')
 
     #LUCCA
     MapEmote('lucca neutral', 'lucca base md default ed default brow default')
@@ -143,6 +166,9 @@ init python:
     MapEmote('stacey therocklook', 'stacey base md default ed side brow raised')
     MapEmote('stacey evil', 'stacey base md default ed default brow mad')
     MapEmote('stacey madlook', 'stacey base md sad ed side brow mad')
+    MapEmote('stacey eyebrowclosed', 'stacey base md sad ec default brow raised')
+    MapEmote('lucca waah', 'lucca base md default ed default brow sadder cry 1')
+    MapEmote('lucca sniff', 'lucca base md sad ed default brow sad cry 1')
 
 #MINOR CHARACTERS
 define dee = Character('Mr. Deeks', color="#FFFFFF", voice_tag="dee")
@@ -172,23 +198,23 @@ default lucca_points = 0
 
 #FULL CGS
 image phonedefault = "cgs/phone/phone_default.png"
-image phonecalling = "cgs/phone/phone_calling.png"
-image phonelevineutral = "cgs/phone/phone_levi1.png"
-image phonelevieyebrow = "cgs/phone/phone_levi2.png"
-image phonelevideadpan = "cgs/phone/phone_levi3.png"
-image phonelevirant = "cgs/phone/phone_levi4.png"
-image phonelevisigh = "cgs/phone/phone_levi5.png"
-image phonestanhappy = "cgs/phone/phone_s-tan1.png"
-image phonestanwink = "cgs/phone/phone_s-tan2.png"
-image phonestanclosed = "cgs/phone/phone_s-tan3.png"
-image phoneyumineutrallisten = "cgs/phone/phone_yumi1.png"
-image phoneyumineutraltalk = "cgs/phone/phone_yumi2.png"
-image phoneyumieyebrow = "cgs/phone/phone_yumi3.png"
-image phoneyumisurprise = "cgs/phone/phone_yumi4.png"
-image phoneyumidread = "cgs/phone/phone_yumi5.png"
-image phoneyumirant = "cgs/phone/phone_yumi6.png"
-image phoneyumiannoyed = "cgs/phone/phone_yumi7.png"
-image phoneyumisigh = "cgs/phone/phone_yumi8.png"
+image phone1 calling = "cgs/phone/phone_calling.png"
+image phone1 levineutral = "cgs/phone/phone_levi1.png"
+image phone1 levieyebrow = "cgs/phone/phone_levi2.png"
+image phone1 levideadpan = "cgs/phone/phone_levi3.png"
+image phone1 levirant = "cgs/phone/phone_levi4.png"
+image phone1 levisigh = "cgs/phone/phone_levi5.png"
+image phone1 stanhappy = "cgs/phone/phone_s-tan1.png"
+image phone1 stanwink = "cgs/phone/phone_s-tan2.png"
+image phone1 stanclosed = "cgs/phone/phone_s-tan3.png"
+image phoneyumi neutrallisten = "cgs/phone/phone_yumi1.png"
+image phoneyumi neutraltalk = "cgs/phone/phone_yumi2.png"
+image phoneyumi eyebrow = "cgs/phone/phone_yumi3.png"
+image phoneyumi surprise = "cgs/phone/phone_yumi4.png"
+image phoneyumi dread = "cgs/phone/phone_yumi5.png"
+image phoneyumi rant = "cgs/phone/phone_yumi6.png"
+image phoneyumi annoyed = "cgs/phone/phone_yumi7.png"
+image phoneyumi sigh = "cgs/phone/phone_yumi8.png"
 
 #MINOR CGS
 image transformdemon = "cgs/transformdemon.png"

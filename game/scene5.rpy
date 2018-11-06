@@ -8,23 +8,24 @@ scene dormhallway
 "I'm just glad I finally have a lead on how to fix all this, although whether or not it'll actually work is beyond me."
 "As I turn the key and enter my room, I pray that the last couple hours really {i}have{/i} been some crazy hallucination..."
 
-#scene dormroom
+scene dormroom with dissolve
 
 "Instead, I find that damn succubus sprawled out on the sofa, looking at a piece of paper with a familiar sketch..."
 "...Wait, that's {i}MY{/i} art!"
 "There's more of my sketches laying around on the floor! Did she go through {i}all{/i} of my belongings while I was gone?!"
 
-#show kam annoyed
-
+show kamika s annoyed with dissolve
 voice "c-5-1.wav" #Kamika (Ariane Marchese)
 kam "Jeez, human art is so {i}passionless!{/i} All these people look so bored with living... {i}Yawn!{/i}"
 
+show kamika s sigh
 voice "c-5-2.wav" #Kamika (Ariane Marchese)
 kam "Where's that raw candor that I {i}truly{/i} crave in art; the one that exposes human beings for what they {i}really{/i} are..."
 
 "Now she has the guts to insult {i}my{/i} art?! This girl was already pushing it, but this is one button I won't allow her to press!"
 "I stomp over to Kamika and make my demands known."
 
+show kamika s annoyed
 voice "c-5-3.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Put that down this instant!!{/i}"
 
@@ -33,7 +34,8 @@ kam "Huh? Oh, it's just {i}you{/i}."
 
 "Kamika tossed the sheet of paper behind her and I instantly grab it out of the air."
 
-#show kam annoyed, eyes closed
+
+show kamika d neutral
 
 voice "c-5-5.wav" #Kamika (Ariane Marchese)
 kam "I was getting bored of that, anyways. How do you even manage to make something so pathetic-looking?"
@@ -44,28 +46,36 @@ yum "{i}My{/i} art and how I draw it is {i}none{/i} of your business! And I don'
 voice "c-5-7.wav" #Yumi (Kathy Pfautsch)
 yum "Do you have {i}any{/i} respect for people's privacy?!"
 
+
+show kamika d confidentclosed
 voice "c-5-8.wav" #Kamika (Ariane Marchese)
 kam "Of {i}course{/i} I do! The common man's interests are {i}much{/i} too boring for me to look into on a whim."
 
 #show kam flirty
 
+show kamika d licklips
 voice "c-5-9.wav" #Kamika (Ariane Marchese)
 kam "Now, on the other hand, if they were getting into something more {i}intimate{/i}...~"
 
 voice "c-5-10.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Eugh{/i}. Forget I said anything."
 
+show kamika d glare
 "I turned my attention away from that disgusting pig to pick up the sketches she left on the floor."
+
+hide kamika with dissolve
 "The folder I keep all these sketches in is lying on the floor too... Now I have to put this all back together! In order, too!"
 "No matter what I do, she's always finding some new way to torture me! It's almost like she gets some sick pleasure from it, too!"
 "And even if I try to set boundaries, she'll just break them apart just so she can get back to flirting with me like nothing ever happened!"
 "...Speaking of which..."
 
+show kamika d deadpan
 voice "c-5-11.wav" #Yumi (Kathy Pfautsch)
 yum "...Well?"
 
 #show kam confused
 
+show kamika d confused
 voice "c-5-12.wav" #Kamika (Ariane Marchese)
 kam "Well what?"
 
@@ -77,10 +87,11 @@ yum "Or are you just waiting for your chance to say some embarrassing pick-up li
 
 #show kam confident, eyes closed
 
+show kamika d confidentclosed
 voice "c-5-15.wav" #Kamika (Ariane Marchese)
 kam "Hah! Bold of you to assume the great Kamika Malagic would lower herself to the point of begging for forgiveness!"
 
-#show kam thinking, eyes closed
+show kamika d thinkingclosed
 
 voice "c-5-16.wav" #Kamika (Ariane Marchese)
 kam "But I {i}am{/i} revising my approach to this situation, somewhat."
@@ -91,12 +102,12 @@ kam "I didn't expect one such as yourself to be able to resist my charms that ea
 voice "c-5-18.wav" #Yumi (Kathy Pfautsch)
 yum "Maybe you're just bad at it."
 
-#show kam embarrassed
+show kamika d exclaim
 
 voice "c-5-19.wav" #Kamika (Ariane Marchese)
 kam "I-I am not {i}bad at it!{/i} I am {i}perfectly{/i} capable of bending this {i}entire school{/i} to my whims if I wanted to!"
 
-#show kam annoyed
+show kamika d shoutclosed
 
 voice "c-5-20.wav" #Kamika (Ariane Marchese)
 kam "{i}You're{/i} just the first person in awhile who's been able to ignore my advances, that's all!"
@@ -104,13 +115,14 @@ kam "{i}You're{/i} just the first person in awhile who's been able to ignore my 
 voice "c-5-21.wav" #Yumi (Kathy Pfautsch)
 yum "So it's like I said; you're just bad at the whole flirting thing."
 
+show kamika d whine
 voice "c-5-22.wav" #Kamika (Ariane Marchese)
 kam "Sh-shut up! No I'm not!"
 
 "Now {i}she's{/i} the one getting flustered."
 "I have to say, it feels kinda nice getting back at her like this after all the shit she's put me through today..."
 
-#show kam thinking, eyes closed
+show kamika d thinkingclosed
 
 voice "c-5-23.wav" #Kamika (Ariane Marchese)
 kam "No, there {i}has{/i} to be a better explanation for this. If I were to guess, this isn't your first time dealing with demons, now is it?"
@@ -118,7 +130,7 @@ kam "No, there {i}has{/i} to be a better explanation for this. If I were to gues
 voice "c-5-24.wav" #Kamika (Ariane Marchese)
 kam "You've learned how to deal with the denizens of the underworld, and are able to stand up to their terrible magicks even when you're a lowly human..."
 
-#show kam surprised
+show kamika d wideeyes
 
 voice "c-5-25.wav" #Kamika (Ariane Marchese)
 kam "Wait, I know! You've had the blood of a demon lord flowing through you this whole time!"
@@ -130,6 +142,7 @@ yum "That's {i}fucking stupid.{/i}"
 
 #show kam thinking
 
+show kamika d thinking
 voice "c-5-27.wav" #Kamika (Ariane Marchese)
 kam "Well, it's always a possibility. I {i}have{/i} been sensing an unusual amount of demonic energy from you..."
 
@@ -138,12 +151,14 @@ kam "Well, it's always a possibility. I {i}have{/i} been sensing an unusual amou
 voice "c-5-28.wav" #Yumi (Kathy Pfautsch)
 yum "Whatever, look, just keep your grubby hands out of my things! I don't need to come home to a mess after every class!"
 
-#show kam annoyed
+show kamika d glare
 
 voice "c-5-29.wav" #Kamika (Ariane Marchese)
 kam "And who do you think you are, giving {i}me{/i} orders?! I'll touch whatever or {i}whoever{/i} I please, thank you very much!"
 
 #show kam annoyed, eyes closed
+
+show kamika d neutralclosed
 
 voice "c-5-30.wav" #Kamika (Ariane Marchese)
 kam "Besides, it's not like I've just been doing {i}that{/i} the entire time, either..."
@@ -151,14 +166,17 @@ kam "Besides, it's not like I've just been doing {i}that{/i} the entire time, ei
 voice "c-5-31.wav" #Yumi (Kathy Pfautsch)
 yum "Oh God... what else did you do?"
 
-#show kam confident
+show kamika d happyclosed
 
 voice "c-5-32.wav" #Kamika (Ariane Marchese)
 kam "I'm {i}very{/i} glad you asked~!"
 
+show kamika d confident
+
 voice "c-5-33.wav" #Kamika (Ariane Marchese)
 kam "I've been putting together the finishing touches on my master plan, and things are coming along better than I could have ever imagined!"
 
+show kamika d happy
 voice "c-5-34.wav" #Kamika (Ariane Marchese)
 kam "Wait right here; I'll get a special presentation prepared just for you~"
 
@@ -282,6 +300,7 @@ yum "World... domination? You serious?"
 voice "c-5-70.wav" #Kamika (Ariane Marchese)
 kam "Super serious! And perfectly lucid!~"
 
+show kamika d thinkingclosed
 voice "c-5-71.wav" #Yumi (Kathy Pfautsch)
 yum "...I just kind of assumed you were joking, but..."
 
@@ -293,7 +312,7 @@ yum "...I just kind of assumed you were joking, but..."
 voice "c-5-72.wav" #Kamika (Ariane Marchese)
 kam "Now I know what you're thinking: 'but Mistress Kamika, how will you {i}ever{/i} achieve such a lofty goal??'"
 
-#show kam confident
+show kamika d confident
 
 "She closes the laptop and looks at me with a grin."
 
@@ -303,19 +322,21 @@ kam "That's where {i}you{/i} come in~"
 voice "c-5-74.wav" #Yumi (Kathy Pfautsch)
 yum "{i}Me?{/i} What do {i}I{/i} have to do with this?"
 
+show kamika d happy
 voice "c-5-75.wav" #Kamika (Ariane Marchese)
 kam "Well, we're stuck here together in the same room, are we not? Besides, you'll be the perfect assistant for me!"
 
+show kamika d smug
 voice "c-5-76.wav" #Kamika (Ariane Marchese)
 kam "You know the ways of this school, so you can do the information gathering while {i}I{/i} determine the best course of action for us!"
 
+show kamika d evilgrin
 voice "c-5-77.wav" #Kamika (Ariane Marchese)
 kam "With you and I working together, we'll bring this school under my heel and usher in a new era the world over~!"
 
-
 "She extends a hand to me, a powerful smirk on her face."
 
-
+show kamika d seducesquint
 voice "c-5-78.wav" #Kamika (Ariane Marchese)
 kam "So what do you say? Will you join me and be my most faithful of minions~?"
 
@@ -326,11 +347,12 @@ yum "..."
 "There's no way I'd ever willingly get myself involved with someone like her; all the time and money I put into getting here would go to waste!"
 "But at the same time, I can't just leave this girl alone to her own devices... otherwise, things will go {i}really{/i} badly..."
 
-#show kam annoyed
+show kamika d glare
 
 voice "c-5-80.wav" #Kamika (Ariane Marchese)
 kam "{i}Helloooooo?{/i} I'd like a response {i}today{/i}, if possible!"
 
+show kamika d smug
 voice "c-5-81.wav" #Kamika (Ariane Marchese)
 kam "Do we have a deal or not?"
 
@@ -349,6 +371,8 @@ label s5deny:
 #BRANCH: dialogue path from ">>Oh hell no."
 
 "...You know what, I have better things to do than worry over every little thing this bitch does."
+
+show kamika d surprise
 "I push her hand away and give her a glare."
 
 voice "c-5-82.wav" #Kamika (Ariane Marchese)
@@ -357,18 +381,19 @@ kam "What are you doing?"
 voice "c-5-83.wav" #Yumi (Kathy Pfautsch)
 yum "Sorry, but I'm not getting myself involved with any of this. Find someone else to badger."
 
-#show kam yelling
+show kamika d madclosed
 
 voice "c-5-84.wav" #Kamika (Ariane Marchese)
 kam "After {i}all{/i} the work I've done to get to this point, you {i}still{/i} won't join me?!"
 
+show kamika d exclaim
 voice "c-5-85.wav" #Kamika (Ariane Marchese)
 kam "You can't {i}seriously{/i} be this dumb! Think of all the {i}perks{/i} you're missing out on!"
 
 voice "c-5-86.wav" #Yumi (Kathy Pfautsch)
 yum "{i}What{/i} 'perks?!' The only '{i}perk{/i}' I see is that {i}you{/i} won't have to do any work while {i}I'm{/i} stuck being your damn gopher!"
 
-#show kam annoyed
+show kamika d glare
 
 voice "c-5-87.wav" #Kamika (Ariane Marchese)
 kam "Well, if you're gonna be {i}that{/i} prickly about it, there's always a position for you as my personal {i}footstool!{/i}"
@@ -376,11 +401,8 @@ kam "Well, if you're gonna be {i}that{/i} prickly about it, there's always a pos
 voice "c-5-88.wav" #Yumi (Kathy Pfautsch)
 yum "I don't have to take {i}anything{/i} that you give me! If you thought I was just gonna take this lying down, then {i}think again!{/i}"
 
-#hide kam
-
-"I turn to leave, until Kamika grabs me by the shoulder."
-
-#show kam yelling
+hide kamika with dissolve
+"I turn to leave."
 
 voice "c-5-89.wav" #Kamika (Ariane Marchese)
 kam "And where do you think {i}you're{/i} going?!"
@@ -389,7 +411,7 @@ voice "c-5-90.wav" #Yumi (Kathy Pfautsch)
 yum "I'm going out. As in, for a walk."
 
 #hide kam
-#scene dormhallway
+scene dormhallway with dissolve
 
 "I shove Kamika's hand off my shoulder and storm out. But even out here, I can still hear her shouting."
 
@@ -414,10 +436,12 @@ label s5accept:
 voice "c-5-92.wav" #Yumi (Kathy Pfautsch)
 yum "Fine. It's a deal."
 
-#show kam confident
+show kamika d confident
 
 voice "c-5-93.wav" #Kamika (Ariane Marchese)
 kam "There you go... {i}Now{/i} you're getting it."
+
+show kamika d smug
 
 voice "c-5-94.wav" #Kamika (Ariane Marchese)
 kam "But I'm gonna need a better response than that."
@@ -425,20 +449,25 @@ kam "But I'm gonna need a better response than that."
 voice "c-5-95.wav" #Yumi (Kathy Pfautsch)
 yum "Like {i}what?{/i}"
 
+show kamika s simmonsclosed
+
 voice "c-5-96.wav" #Kamika (Ariane Marchese)
 kam "'Oh, Mistress Kamika, please let me cater to your every whim~!'"
 
+show kamika s smug
 voice "c-5-97.wav" #Kamika (Ariane Marchese)
 kam "Say that to me, and only then will I sincerely believe you want to help me."
 
 voice "c-5-98.wav" #Yumi (Kathy Pfautsch)
 yum "...'Oh Mistress Kamika-'"
 
-#show kam annoyed
+
+show kamika d mad
 
 voice "c-5-99.wav" #Kamika (Ariane Marchese)
 kam "No, no, no! Don't read it like a {i}script{/i}, you moron!"
 
+show kamika d happy
 voice "c-5-100.wav" #Kamika (Ariane Marchese)
 kam "Say it with {i}feeling{/i}! With {i}passion{/i}! Reach {i}deep{/i} into your soul and let me know the strength of your convictions!"
 
@@ -446,7 +475,7 @@ kam "Say it with {i}feeling{/i}! With {i}passion{/i}! Reach {i}deep{/i} into you
 "I shut my eyes as tight as possible and clench my fists. This goddamn succubus is really trying my patience here."
 "I take a deep, slow breath... then I clutch my chest and look at Kamika with pleading eyes."
 
-#show kam surprised
+show kamika d wideeyes
 
 voice "c-5-101.wav" #Yumi (Kathy Pfautsch)
 yum "{i}OH{/i}, Mistress Kamika, {i}PLEASE{/i} let me cater to your {i}EVERY WHIM!!{/i}"
@@ -456,17 +485,20 @@ yum "{i}OH{/i}, Mistress Kamika, {i}PLEASE{/i} let me cater to your {i}EVERY WHI
 
 #show kam laughing
 
+show kamika s hystericallaugh
 voice "c-5-102.wav" #Kamika (Ariane Marchese)
 kam "...Hahahahahaha! {i}Ahahahahahaha~!{/i}"
 
 "She starts laughing hysterically."
 "I take it back; I wanna crawl in a hole, die, and then make {i}absolutely sure{/i} I don't get reincarnated."
 
+show kamika d happyclosed
 voice "c-5-103.wav" #Kamika (Ariane Marchese)
 kam "Ahaha! Oh man! That was better than I ever could have imagined!"
 
 #show kam confident
 
+show kamika d happy
 voice "c-5-104.wav" #Kamika (Ariane Marchese)
 kam "You've more than proven your worth with that. Henceforth, you shall be my most loyal and valuable servant in all of my endeavors!"
 
@@ -479,7 +511,7 @@ yum "Wow, I feel so privileged."
 voice "c-5-106.wav" #Yumi (Kathy Pfautsch)
 yum "Are we done? I need to go out."
 
-#show kam annoyed
+show kamika d question
 
 voice "c-5-107.wav" #Kamika (Ariane Marchese)
 kam "Leaving again? Where are you going now?"
@@ -487,10 +519,11 @@ kam "Leaving again? Where are you going now?"
 voice "c-5-108.wav" #Yumi (Kathy Pfautsch)
 yum "Nowhere in particular. Just for a walk."
 
+show kamika d sigh
 voice "c-5-109.wav" #Kamika (Ariane Marchese)
 kam "Really. I suppose humans really do know how to waste time better than anyone."
 
-#show kam annoyed, eyes closed
+show kamika d neutralclosed
 
 voice "c-5-110.wav" #Kamika (Ariane Marchese)
 kam "Very well, I'll allow it. Just come back in a timely manner."
@@ -498,7 +531,7 @@ kam "Very well, I'll allow it. Just come back in a timely manner."
 voice "c-5-111.wav" #Yumi (Kathy Pfautsch)
 yum "Sure, whatever you say."
 
-#scene dormhallway
+scene dormhallway with dissolve
 
 "I silently leave the room and exit out into the hallway."
 "Only out here do I realize I've made a deal with a devil... I feel as though my soul's been tainted."
