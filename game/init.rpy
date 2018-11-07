@@ -73,6 +73,19 @@ init python:
     MapEmote('kamika u shoutclosed', 'kamika pose1 public md mad ec default brow mad optional angryvein')
     MapEmote('kamika u evilsmile', 'kamika pose1 public md happy ed default brow mad')
     MapEmote('kamika u evilsmileclosed', 'kamika pose1 public md happy ec default brow mad')
+    MapEmote('kamika u evilgrin', 'kamika pose1 public mc grin ec default brow mad')
+    MapEmote('kamika u badliar', 'kamika pose1 public md happy ed happy brow sad')
+    MapEmote('kamika u badliarclosed', 'kamika pose1 public md happy ec happy brow sad')
+    MapEmote('kamika u squirm', 'kamika pose1 public mc grin ec happy brow sad')
+    MapEmote('kamika u evilsmileclosed', 'kamika pose1 public md happy ed squint brow mad')
+    MapEmote('kamika u panic', 'kamika pose1 public m shout ed default brow surprise')
+    MapEmote('kamika u desperate', 'kamika pose1 public md happy ed default brow sad')
+    MapEmote('kamika u desperateclosed', 'kamika pose1 public md happy ec default brow sad')
+    MapEmote('kamika u ouch', 'kamika pose1 public m shout ec default brow mad')
+    MapEmote('kamika u eyebrow', 'kamika pose1 public md default ed default brow raised')
+    MapEmote('kamika u sad', 'kamika pose1 public md sad ed default brow sad')
+    MapEmote('kamika u sadclosed', 'kamika pose1 public md sad ec default brow sad')
+    MapEmote('kamika u sadsquint', 'kamika pose1 public md sad ed squint brow sad')
     #PAST THIS POINT IS NEW SHIT
 
     #KAMIKA LOOKING AT READER (DEMON FORM)
@@ -114,6 +127,19 @@ init python:
     MapEmote('kamika d shoutclosed', 'kamika pose1 base md mad ec default brow mad optional angryvein')
     MapEmote('kamika d evilsmile', 'kamika pose1 base md happy ed default brow mad')
     MapEmote('kamika d evilsmileclosed', 'kamika pose1 base md happy ec default brow mad')
+    MapEmote('kamika d evilgrin', 'kamika pose1 base mc grin ec default brow mad')
+    MapEmote('kamika d badliar', 'kamika pose1 base md happy ed happy brow sad')
+    MapEmote('kamika d badliarclosed', 'kamika pose1 base md happy ec happy brow sad')
+    MapEmote('kamika d squirm', 'kamika pose1 base mc grin ec happy brow sad')
+    MapEmote('kamika d evilsmileclosed', 'kamika pose1 base md happy ed squint brow mad')
+    MapEmote('kamika d panic', 'kamika pose1 base m shout ed default brow surprise')
+    MapEmote('kamika d desperate', 'kamika pose1 base md happy ed default brow sad')
+    MapEmote('kamika d desperateclosed', 'kamika pose1 base md happy ec default brow sad')
+    MapEmote('kamika d ouch', 'kamika pose1 base m shout ec default brow mad')
+    MapEmote('kamika d eyebrow', 'kamika pose1 base md default ed default brow raised')
+    MapEmote('kamika d sad', 'kamika pose1 base md sad ed default brow sad')
+    MapEmote('kamika d sadclosed', 'kamika pose1 base md sad ec default brow sad')
+    MapEmote('kamika d sadsquint', 'kamika pose1 base md sad ed squint brow sad')
     #PAST THIS POINT IS NEW SHIT
 
 
@@ -150,7 +176,9 @@ init python:
     MapEmote('lucca nervoussmile', 'lucca base md happy ed default brow sad')
     MapEmote('lucca guilty', 'lucca base md sad ec default brow sad')
     MapEmote('lucca mad', 'lucca base md mad ed default brow mad')
+    MapEmote('lucca mad', 'lucca base md mad ed default brow mad optional blush')
     MapEmote('lucca happy', 'lucca base md happy ed happy brow sad')
+
     #MOE
     MapEmote('moe neutral', 'moe base md default ed default brow default')
     MapEmote('moe neutrallook', 'moe base md default ed side brow default')
@@ -160,6 +188,10 @@ init python:
     MapEmote('moe mad', 'moe base md default ed default brow mad')
     MapEmote('moe sigh', 'moe base md default ec default brow sad')
     MapEmote('moe sighsweat', 'moe base md default ec default brow sad optional sweatdrop')
+    MapEmote('moe smug', 'moe base md happy ed default brow angry')
+    MapEmote('moe smuglook', 'moe base md happy ed side brow angry')
+    MapEmote('moe smugclosed', 'moe base md happy ec default brow angry')
+
 
     #MADE BY ALF, DOUBLECHECK LATER
     MapEmote('stacey neutralclosed', 'stacey base md sad ec default brow default')
@@ -169,6 +201,14 @@ init python:
     MapEmote('stacey eyebrowclosed', 'stacey base md sad ec default brow raised')
     MapEmote('lucca waah', 'lucca base md default ed default brow sadder cry 1')
     MapEmote('lucca sniff', 'lucca base md sad ed default brow sad cry 1')
+    MapEmote('kamika u quiet', 'kamika pose1 public md default ed default brow sad')
+    MapEmote('kamika d quiet', 'kamika pose1 base md default ed default brow sad')
+    MapEmote('kamika u disappointed', 'kamika pose1 public md default ec default brow sad')
+    MapEmote('kamika d disappointed', 'kamika pose1 base md default ec default brow sad')
+    MapEmote('kamika u seducetongue', 'kamika pose1 public m lick ed default brow sad')
+    MapEmote('kamika d seducetongue', 'kamika pose1 base m lick ed default brow sad')
+    MapEmote('kamika u stew', 'kamika pose1 base mc baka ed default brow mad')
+    MapEmote('kamika d stew', 'kamika pose1 base mc baka ed default brow mad')
 
 #MINOR CHARACTERS
 define dee = Character('Mr. Deeks', color="#FFFFFF", voice_tag="dee")

@@ -1,26 +1,31 @@
 label scene14iv:
-scene dormroom
+scene dormroom with dissolve
 
 "I decide to check in with Kamika. She's putzing around my room again. As usual."
 
+show kamika d glare with dissolve
 voice "c-14iv-1.wav" #Kamika (Ariane Marchese)
 kam "Oh. It's {i}you.{/i}"
 
+show kamika d sighclosed
 voice "c-14iv-2.wav" #Kamika (Ariane Marchese)
 kam "Can you go brood somewhere else? I'm busy."
 
 voice "c-14iv-3.wav" #Yumi (Kathy Pfautsch)
 yum "Uh, hello? This is my room."
 
+show kamika d deadpan
 voice "c-14iv-4.wav" #Kamika (Ariane Marchese)
 kam "Tch. {i}Everything{/i} belongs to me, remember?"
 
 voice "c-14iv-5.wav" #Yumi (Kathy Pfautsch)
 yum "Okay, you're insufferable. I'm leaving."
 
+show kamika d neutralclosed
 voice "c-14iv-6.wav" #Kamika (Ariane Marchese)
 kam "And good riddance."
 
+scene campus with dissolve
 "I decide to leave that skank behind and work outside."
 "And... for the first time in what feels like forever, I'm finally... alone."
 "No Kamika pining for my attention."
@@ -49,17 +54,19 @@ yum "Yaaaaaaaaawn..."
 "But it's really true. She's gone. Gone!"
 "I lock the door, just to make sure she doesn't come back. Part of me thinks she can just turn into a slug and crawl under the door or something, but I push the thought out of my head."
 
-#fade to black
+scene black with dissolve
 "And finally... I go to sleep."
 "The night passes uninterrupted."
 #fade from black
-
+scene campus with dissolve
 "I wake up, energized and raring to go. Without Kamika, I've finally gotten the energy I need."
 "I feel like I can handle anything!"
 "Anything but Kamika herself, of course. That harlot could tire out a caffeinated puppy."
 "But enough about her. If I'm lucky, she's had enough of me and I'll be able to mind my studies for the rest of college!"
 "I prepare for the day, and trot off to class with a skip in my step."
 "This is so exciting! I feel almost like a whole new person. I can greet even a morning class like this with a smile!"
+
+scene lecturehall with dissolve
 "And so I open the door to the lecture hall, ready to finally engage with my studies like a real student..."
 
 #music stops
@@ -170,9 +177,9 @@ yum "Yoooouuuu just keep telling yourself that. But me? I'm gonna go draw the oc
 voice "c-14iv-39.wav" #Kamika (Ariane Marchese)
 kam "Oh, no you're not! You sit your ass down and- Yumi! Where are you going? Yumi? YUMIIIIIIII!"
 
-#fade to black
+scene black with dissolve
 "And that's how my career as an artist began."
 "I found modest success, and eventually bought myself a shack up in the mountains where I could finally be the hermit I was meant to be."
 "Truly, my life is bliss."
 
-#jump credits?
+return

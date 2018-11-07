@@ -1,37 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00console.rpy", line 769, in script call
-    return
-  File "renpy/common/00console.rpy", line 765, in script call
-    python in _console:
-  File "game/scene3.rpy", line 384, in script
-    kam "Humph! Killjoy."
-NameError: name 'Kamika' is not defined
+  File "game/init.rpy", line 13, in script
+    init python:
+  File "game/init.rpy", line 109, in <module>
+    MapEmote('kamika d sigh' 'kamika pose1 base md mad happy ec default brow sad')
+TypeError: MapEmote() takes at least 2 arguments (1 given)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00console.rpy", line 769, in script call
-    return
-  File "renpy/common/00console.rpy", line 765, in script call
-    python in _console:
-  File "game/scene3.rpy", line 384, in script
-    kam "Humph! Killjoy."
-  File "E:\renpy-6.99.12.4-sdk\renpy\ast.py", line 652, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "E:\renpy-6.99.12.4-sdk\renpy\exports.py", line 1199, in say
-    who(what, *args, **kwargs)
-  File "E:\renpy-6.99.12.4-sdk\renpy\character.py", line 982, in __call__
-    who = renpy.python.py_eval(who)
-  File "E:\renpy-6.99.12.4-sdk\renpy\python.py", line 1943, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "E:\renpy-6.99.12.4-sdk\renpy\python.py", line 1936, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "<none>", line 1, in <module>
-NameError: name 'Kamika' is not defined
+  File "game/init.rpy", line 13, in script
+    init python:
+  File "E:\renpy-6.99.12.4-sdk\renpy\ast.py", line 862, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "E:\renpy-6.99.12.4-sdk\renpy\python.py", line 1912, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/init.rpy", line 109, in <module>
+    MapEmote('kamika d sigh' 'kamika pose1 base md mad happy ec default brow sad')
+TypeError: MapEmote() takes at least 2 arguments (1 given)
 
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
-Ah!! My Roommate is a Succubus Hellbent on World Conquest!! 1.0
-Sun Nov 04 02:10:09 2018
+ 
+Wed Nov 07 03:04:09 2018

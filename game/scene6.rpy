@@ -41,7 +41,7 @@ yum "Wait... do I even have her number saved?"
 voice "c-6-2.wav" #Yumi (Kathy Pfautsch)
 yum "...Her number's just a bunch of sixes, isn't it."
 
-"Feeling like an idiot, I briskly open my flip-phone,  jam the "6" button until I get bored, and just send the call."
+"Feeling like an idiot, I briskly open my flip-phone,  jam the \"6\" button until I get bored, and just send the call."
 
 show phonedefault with dissolve
 "The phone rings for a couple seconds, and then..."
