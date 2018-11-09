@@ -80,7 +80,7 @@ voice "c-7ii-15.wav" #Stacey (Ashe Thurman)
 sta "Working already? Shit man, you don't need to try so hard."
 
 voice "c-7ii-16.wav" #Yumi (Kathy Pfautsch)
-yum "Don't I? It's Uni. Weren't you the one that said coffee gets your juices flowing?"
+yum "Don't I? It's just college. Weren't you the one that said coffee gets your juices flowing?"
 
 show stacey eyebrow
 voice "c-7ii-17.wav" #Stacey (Ashe Thurman)

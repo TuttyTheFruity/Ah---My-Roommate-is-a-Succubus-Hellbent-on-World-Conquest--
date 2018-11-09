@@ -376,7 +376,7 @@ dee "My office hours are pretty weird, but swing by my corner of the gym and we 
 
 show stacey therock with dissolve
 voice "c-1-85.wav" #Stacey (Ashe Thurman)
-sta "Hey Yumi, you wanna do lunch later? We can brainstorm our graphic design projects right about then anyway."
+sta "Hey Yumi, you wanna do lunch later? We can brainstorm our graphic design projects."
 
 voice "c-1-86.wav" #Yumi (Kathy Pfautsch)
 yum "Yeah, sounds cool. I need some alone time just to do some life studies, so I might head back to the dorm and play catchup."
