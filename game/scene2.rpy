@@ -32,16 +32,18 @@ yum "It's like ten in the morning guys, come on..."
 "I mutter to myself. Whatever it was, it was invasive."
 "They could at least be more considerate of the other people in these dorms... If it keeps being a problem, I'll just let the RA know."
 
-#scene black
+scene dormroom with dissolve
 
 "Shrugging it off as nothing, I enter my room to prepare myself for school work..."
 "And that's when... I found her."
 
-#show cg of Kamika looking normal lying in bed, giving viewer a sultry look
+
+#show cg of Kamika looking normal lying in bed, giving viewer a sultry look, zorder 2
 
 voice "c-2-4.wav" #Kamika (Ariane Marchese)
 kam "Hello there~!"
 
+show kamika u mad zorder 1
 voice "c-2-5.wav" #Yumi (Kathy Pfautsch)
 yum "?!"
 
@@ -130,34 +132,57 @@ kam "You're supposed to be smelling the sweet flavor of unbridled arousal! That'
 voice "c-2-25.wav" #Yumi (Kathy Pfautsch)
 yum "All I smell is a dead animal! God, what {i}is{/i} that?!"
 
+show kamika u glare
 voice "c-2-26.wav" #Kamika (Ariane Marchese)
 kam "Jeez, you are {i}so{/i} ungrateful! And after all the hard work I spent spicing up this place with my pheromones!"
 
 voice "c-2-27.wav" #Yumi (Kathy Pfautsch)
 yum "Wait... that was {i}YOU?!{/i} You're smoking weed at ten in the morning aren't you!?"
 
+show kamika u sigh
 voice "c-2-28.wav" #Kamika (Ariane Marchese)
 kam "Are you even listening!? God, you're stupid..."
 
 #kamika shows devilish features
 #show kam confident
+show pinkfog zorder 3
+#sfx: poof
 
-"A puff of pink smoke appears around her, and before I know it... she's become completely different."
-"Well, okay, not {i}entirely{/i} different, but she normally didn't have those horns, or wings... or that tail..."
+"A puff of pink smoke appears around her. I can barely make out anything through the thick fog!"
+
+show transformhuman zorder 2 with dissolve
+"I have to squint to make out any details. It was hard to make out her form."
+
+show transformdemon zorder 2 with dissolve
+hide transformhuman
+show kamika d confident
+"...Was it changing?? No, no, that's insane. What even is all this??"
+hide transformdemon with dissolve
+"...I was getting a very bad feeling about this..."
+
+#sfx: swish
+hide pinkfog with dissolve
+"Before long, the fog had dissipated entirely, revealing Kamika once more."
+"...I think it was Kamika, but... Her outfit was completely different! So revealing! I hope her mother didn't pick that outfit out for her..."
+"Well, okay, she wasn't {i}entirely{/i} different, but she didn't have those horns before. Or wings... or that tail..."
 "...Wait a second. No, it couldn't be..."
 
 voice "c-2-29.wav" #Yumi (Kathy Pfautsch)
 yum "...Oh goddamn it, are you kidding me?? You're a {i}demon?!{/i}"
 
+show kamika d smugclosed
 voice "c-2-30.wav" #Kamika (Ariane Marchese)
 kam "Pretty impressive, right? All I had to do was give off the right amount of pheromones, and this old dump becomes my personal playroom~"
 
+show kamika d smug
 voice "c-2-31.wav" #Kamika (Ariane Marchese)
 kam "You can tell I've made this place my own, right?"
 
+show kamika d wideeyes
 voice "c-2-32.wav" #Yumi (Kathy Pfautsch)
 yum "{i}No!{/i} You haven't done {i}anything{/i} to this place other than make it smell like a {i}garbage dump!{/i}"
 
+show kamika d evilgrin
 voice "c-2-33.wav" #Kamika (Ariane Marchese)
 kam "Well, it lured you to my den, didn't it~?"
 
@@ -166,12 +191,14 @@ yum "This is {i}my{/i} dorm room, idiot!"
 
 #show kam annoyed
 
+show kamika d smug
 voice "c-2-35.wav" #Kamika (Ariane Marchese)
 kam "I think you're mistaken here..."
 
 voice "c-2-36.wav" #Yumi (Kathy Pfautsch)
 yum "The only mistake {i}I've{/i} made is that I haven't called a {i}hazmat{/i} team right about now! Just..."
 
+show kamika d glare
 "I plug my nose again. Any more of this awful stench and I really {i}will{/i} puke!"
 
 voice "c-2-37.wav" #Yumi (Kathy Pfautsch)
@@ -179,13 +206,14 @@ yum "{i}Fuck{/i}, I'm... I'm getting the RA!"
 
 #show kam yelling
 
+show kamika d surprise
 voice "c-2-38.wav" #Kamika (Ariane Marchese)
 kam "H-hey, wait just a second!"
 
 voice "c-2-39.wav" #Yumi (Kathy Pfautsch)
 yum "Shut up and stay here! Open a window or something, just, get rid of this smell before I get back!"
 
-#scene dormhallway
+scene dormhallway
 
 "Her demands falling on deaf ears, I storm out of my room and straight to the Resident Assistant's room."
 "I haven't seen a whole lot of him and I've never felt the need to get his assistance before, but there's never been a better time than now."
@@ -193,25 +221,30 @@ yum "Shut up and stay here! Open a window or something, just, get rid of this sm
 
 #show moe annoyed
 
+show moe neutral with dissolve
 voice "c-2-40.wav" #Moe (CJ Heineman)
 moe "What is it? I'm in the middle of something."
 
-"He's... a little different than I expected, but now's not the time for that. I clear my throat."
+"He's... a little different than I expected. What's with his skin? Is he like, a shutin or something? Is that a skin disease?"
+"Has he seen the sun in the last two months?? ...Whatever, now's not the time for that. I clear my throat."
 
 voice "c-2-41.wav" #Yumi (Kathy Pfautsch)
 yum "Sir, there's this weird girl who's forced her way into my room and made a mess of the place! I need her to get out so I can clean up!"
 
+show moe neutrallook
 voice "c-2-42.wav" #Moe (CJ Heineman)
 moe "'Weird girl,' huh? We got a lot of those around here. Gonna have to be more specific."
 
 voice "c-2-43.wav" #Yumi (Kathy Pfautsch)
 yum "You'd know her if you saw her! She's got blonde hair and a purple skirt..."
 
+show moe neutral
 voice "c-2-44.wav" #Yumi (Kathy Pfautsch)
 yum "Damn near {i}everything{/i} on her is purple! The wings, the tail, the... the horns..."
 
 #show moe neutral
 
+show moe squint
 "I come to a stop when I realize just how crazy I sound. The RA looks at me blankly."
 
 voice "c-2-45.wav" #Moe (CJ Heineman)
@@ -220,6 +253,7 @@ moe "Uh-huh. And you're {i}sure{/i} you're not hallucinating any of this?"
 voice "c-2-46.wav" #Yumi (Kathy Pfautsch)
 yum "What?"
 
+show moe neutralclosed
 voice "c-2-47.wav" #Moe (CJ Heineman)
 moe "I know it's been a couple weeks since you came here from Japan, so I understand if you're going a little stir-crazy, what with being cooped up in your room and all..."
 
@@ -228,29 +262,34 @@ yum "I-I'm not going crazy! There's seriously a weird girl doing messed-up thing
 
 #show moe annoyed
 
+show moe madside
 voice "c-2-49.wav" #Moe (CJ Heineman)
 moe "Yeah, and I'm the back-up singer for the Beatles, but you don't see me throwing that around everywhere, now do you?"
 
+show moe mad
 voice "c-2-50.wav" #Moe (CJ Heineman)
 moe "I'm not about to start stupid rumors like that, and you'd do well not to do the same with this \"demon girl\" crap."
 
 voice "c-2-51.wav" #Yumi (Kathy Pfautsch)
 yum "B-but I... you gotta believe me!"
 
+show moe squint
 voice "c-2-52.wav" #Moe (CJ Heineman)
 moe "..."
 
+show moe sighsweat
 voice "c-2-53.wav" #Moe (CJ Heineman)
 moe "{i}Ugh, they give me the dorm with all the nutjobs...{/i}"
 
-#show moe neutral
-
+show moe neutral
 voice "c-2-54.wav" #Moe (CJ Heineman)
 moe "Tell you what. I'll look into the smell. Maybe get lots of air cleaners or something. I dunno."
 
+show moe neutrallook
 voice "c-2-55.wav" #Moe (CJ Heineman)
 moe "I'll leave the girl you keep talkin' about to you. Don't be afraid to throw her out if you have to."
 
+show moe mad
 voice "c-2-56.wav" #Moe (CJ Heineman)
 moe "Of course, this is all assuming she's even as real as you say she is."
 
@@ -259,12 +298,17 @@ yum "But she {i}is{/i} real-"
 
 #show moe annoyed
 
+show moe madside
 voice "c-2-58.wav" #Moe (CJ Heineman)
 moe "No buts. You do you, I'll do me."
 
 #hide moe
 
-"With that, he closes the door on me. I attempt to raise my voice to protest, but then he opens the door again."
+hide moe with dissolve
+"With that, he closes the door on me. I attempt to raise my voice to protest..."
+
+show moe squint with dissolve
+"...but then, to my great surprise, he opens the door again."
 
 #show moe annoyed
 
@@ -274,9 +318,11 @@ moe "Also would it kill you to knock a little quieter next time? People are stud
 voice "c-2-60.wav" #Yumi (Kathy Pfautsch)
 yum "O-oh... sorry."
 
+show moe neutral
 voice "c-2-61.wav" #Yumi (Kathy Pfautsch)
 yum "...H-hey wait, we aren't done yet-"
 
+hide moe with dissolve
 #sfx door close
 
 voice "c-2-62.wav" #Yumi (Kathy Pfautsch)

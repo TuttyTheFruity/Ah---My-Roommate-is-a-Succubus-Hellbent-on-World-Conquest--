@@ -219,7 +219,7 @@ screen navigation():
 screen save:
     tag menu
     add "gui/saveload/background.png"
-    add "gui/saveload/save_title.png" xpos 0 ypos 0
+    add "gui/saveload/save_title.png" xpos 1250 ypos 25
     use navigation
     use file_picker
 
@@ -227,7 +227,7 @@ screen save:
 screen load:
     tag menu
     add "gui/saveload/background.png"
-    add "gui/saveload/load_title.png"
+    add "gui/saveload/load_title.png" xpos 1250 ypos 25
     use navigation
     use file_picker
 
@@ -236,46 +236,43 @@ screen load:
 screen file_picker:
 
 # FILE PAGES:
-    imagebutton auto "gui/saveload/quick_%s.png" xpos 136 ypos 296 focus_mask None action FilePage("quick")
-    imagebutton auto "gui/saveload/auto_%s.png" xpos 136 ypos 381 focus_mask None action FilePage("auto")
-    imagebutton auto "gui/saveload/page1_%s.png" xpos 138 ypos 464 focus_mask None action FilePage(1)
-    imagebutton auto "gui/saveload/page2_%s.png" xpos 139 ypos 547 focus_mask None action FilePage(2)
-    imagebutton auto "gui/saveload/page3_%s.png" xpos 138 ypos 629 focus_mask None action FilePage(3)
-    imagebutton auto "gui/saveload/page4_%s.png" xpos 137 ypos 711 focus_mask None action FilePage(4)
+    imagebutton auto "gui/saveload/quick_%s.png" xpos 800 ypos 450 focus_mask None action FilePage("quick")
+    imagebutton auto "gui/saveload/auto_%s.png" xpos 825 ypos 650 focus_mask None action FilePage("auto")
+
+    imagebutton auto "gui/saveload/page1_%s.png" xpos 525 ypos 75 focus_mask None action FilePage(1)
+    imagebutton auto "gui/saveload/page2_%s.png" xpos 575 ypos 225 focus_mask None action FilePage(2)
+    imagebutton auto "gui/saveload/page3_%s.png" xpos 625 ypos 375 focus_mask None action FilePage(3)
+    imagebutton auto "gui/saveload/page4_%s.png" xpos 625 ypos 525 focus_mask None action FilePage(4)
+    imagebutton auto "gui/saveload/page5_%s.png" xpos 575 ypos 675 focus_mask None action FilePage(4)
+    imagebutton auto "gui/saveload/page6_%s.png" xpos 525 ypos 825 focus_mask None action FilePage(4)
 
 # LAYOUT OF SAVE SLOTS
     #$ number = range(0, 6)
-    imagebutton auto "gui/saveload/slot_%s.png" xpos 407 ypos 180 focus_mask None action FileAction(1)
-    use load_save_slot(number=1, x=407, y=180)
-    imagebutton auto "gui/saveload/slot_%s.png" xpos 834 ypos 180 focus_mask None action FileAction(2)
-    use load_save_slot(number=2, x=834, y=180)
-    imagebutton auto "gui/saveload/slot_%s.png" xpos 1261 ypos 180 focus_mask None action FileAction(3)
-    use load_save_slot(number=3, x=1261, y=180)
-    imagebutton auto "gui/saveload/slot_%s.png" xpos 407 ypos 541 focus_mask None action FileAction(4)
-    use load_save_slot(number=4, x=407, y=541)
-    imagebutton auto "gui/saveload/slot_%s.png" xpos 834 ypos 541 focus_mask None action FileAction(5)
-    use load_save_slot(number=5, x=834, y=541)
-    imagebutton auto "gui/saveload/slot_%s.png" xpos 1261 ypos 541 focus_mask None action FileAction(6)
-    use load_save_slot(number=6, x=1261, y=541)
+    imagebutton auto "gui/saveload/slot_%s.png" ypos 220 xpos 1100 focus_mask None action FileAction(1)
+    use load_save_slot(number=1, x=1100, y=220)
+    imagebutton auto "gui/saveload/slot_%s.png" ypos 510 xpos 1100 focus_mask None action FileAction(2)
+    use load_save_slot(number=2, x=1100, y=510)
+    imagebutton auto "gui/saveload/slot_%s.png" ypos 800 xpos 1100 focus_mask None action FileAction(3)
+    use load_save_slot(number=3, x=1100, y=800)
 
 
 screen load_save_slot:
     hbox:
         style_group "bant"
-        textbutton _("Delete") xpos x+198 ypos y+230 xanchor 0.5 action FileDelete(number)
+        textbutton _("Delete") xpos x+198 ypos y+220 xanchor 0.5 action FileDelete(number)
 
 # Save slot file text
-    $ file_text = "% s\n  %s" % (FileTime(number, empty="Empty"), FileSaveName(number))
+    $ file_text = "% s\n  %s" % (FileTime(number, empty=" "), FileSaveName(number))
 
 # Save slot file text customization
-    text file_text xpos x+198 ypos y+280 size 32 xanchor 0.5
+    text file_text xpos x+200 ypos y+75 size 38 xanchor 0.5
 
 # Save slot thumbnail
-    add FileScreenshot(number) xpos x+18ypos y+18
+    add FileScreenshot(number) xpos x+400 ypos y+0
 
 init -2 python:
-    config.thumbnail_width = 360
-    config.thumbnail_height = 203
+    config.thumbnail_width = 450
+    config.thumbnail_height = 207
 
 init -2:
     style bant_button:
@@ -285,9 +282,9 @@ init -2:
         is default
         size 32
         idle_color "#FFFFFF"
-        hover_color "#1B68F7"
+        hover_color "#f191ac"
         insensitive_color "#A6A6A6"
-        outlines [(1, "#092762", 0, 0)]
+        outlines [(1, "#80263f", 0, 0)]
 
 ##############################################################################
 # Preferences
