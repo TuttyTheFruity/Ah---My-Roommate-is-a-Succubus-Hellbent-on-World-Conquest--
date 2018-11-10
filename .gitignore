@@ -23,3 +23,10 @@ $RECYCLE.BIN/
 # =========================
 *.rpyc
 *.save
+*.rpyc
+*.rpyb
+*.save
+game/saves/navigation.json
+game/saves/persistent
+game/devlog.txt
+log.txt
