@@ -10,10 +10,13 @@
 #
 # Screen that's used to display adv-mode dialogue.
 # http://www.renpy.org/doc/html/screen_special.html#say
-screen say(who, what, side_image=None, two_window=True):
+screen say(who, what, side_image=None, two_window=False):
 
     # Decide if we want to use the one-window or two-window variant.
     if not two_window:
+        add 'gui/textbox/textbox.png'
+        if who:
+            add 'gui/textbox/namebox.png'
 
         # The one window variant.
         window:
@@ -23,9 +26,9 @@ screen say(who, what, side_image=None, two_window=True):
                 style "say_vbox"
 
             if who:
-                text who id "who"
+                text who id "who" pos (350, 835) font 'clementepdaqultrabold.ttf' size 46
 
-            text what id "what" ypos 830
+            text what id "what" pos (420, 870) font 'clementepdairegular.ttf' size 32 xsize 1080
 
     else:
 
@@ -56,7 +59,6 @@ screen say(who, what, side_image=None, two_window=True):
 
     # Use the quick menu.
     use quick_menu
-
 
 ##############################################################################
 # Choice
