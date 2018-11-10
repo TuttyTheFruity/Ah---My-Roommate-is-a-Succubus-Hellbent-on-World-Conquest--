@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scene6.rpy", line 314: expected statement.
-    sgiw phone1 levineutral
-                           ^
+File "game/gui/screens.rpy", line 229: u'ypose' is not a keyword argument or valid child for the add statement.
+    add "gui/saveload/background.png" xpos 1920 ypose 1080
+                                                     ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Mon Nov 05 19:57:32 2018
+Fri Nov 09 23:36:21 2018
