@@ -2,29 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scene3.rpy", line 261: expected statement.
-    kamika_points += 1
-                  ^
-
-File "game/scene9i.rpy", line 153: expected statement.
-    lucca_points += 1
-                 ^
-
-File "game/scene9ii.rpy", line 323: expected statement.
-    lucca_points += 1
-                 ^
-
-File "game/scene9ii.rpy", line 423: expected statement.
-    lucca_points += 1
-                 ^
-
-File "game/scene9ii.rpy", line 465: expected statement.
-    lucca_points += 1
-                 ^
-
-File "game/scene9ii.rpy", line 468: expected statement.
-    kamika_points += 1
-                  ^
+File "game/gui/screens.rpy", line 318: u'Preference' is not a keyword argument or valid child for the imagebutton statement.
+    imagebutton auto "gui/config/skipread_%s.png" xpos 1045 ypos 636 Preference('skip', 'seen')
+                                                                               ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Thu Oct 25 03:46:02 2018
+Fri Nov 09 19:07:23 2018
